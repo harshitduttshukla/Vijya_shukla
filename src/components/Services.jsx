@@ -2,10 +2,10 @@ const servicesData = [
   {
     num: '01',
     img: '/assets/project-images/project-03.jpg',
-    alt: 'Aluminium scaffolding project',
+    alt: 'H-Frame Scaffolding project',
     title: (
       <>
-        Aluminium Scaffolding<br />(Narrow Model)
+        H-Frame Scaffolding<br />(Narrow Model)
       </>
     ),
     desc: 'Lightweight, strong access solutions with quick installation and reliable stability.',
@@ -13,10 +13,10 @@ const servicesData = [
   {
     num: '02',
     img: '/assets/project-images/project-04.jpg',
-    alt: 'Stairway scaffolding project',
+    alt: 'Cuplock Scaffolding project',
     title: (
       <>
-        Aluminium Scaffolding<br />(Stairway Model)
+        Cuplock Scaffolding<br />(Stairway Model)
       </>
     ),
     desc: 'Safe non-slip access, strong construction and easy assembly for demanding sites.',
@@ -38,15 +38,15 @@ const servicesData = [
   {
     num: '05',
     img: '/assets/project-images/project-07.jpg',
-    alt: 'Access scaffolding project',
-    title: 'Aluminium Ladders',
+    alt: 'Cuplock Ladders scaffolding project',
+    title: 'Cuplock Ladders Scaffolding',
     desc: 'Lightweight, corrosion-resistant ladders with secure anti-slip steps.',
   },
   {
     num: '06',
     img: '/assets/project-images/project-08.jpg',
     alt: 'Scaffolding materials on site',
-    title: 'Scaffolding Accessories',
+    title: 'H-Frame Scaffolding ',
     desc: 'Quality clamps, couplers, base plates, jacks and essential safety fittings.',
   },
 ];
