@@ -1,0 +1,397 @@
+{
+  "assets": [
+    {
+      "contentType": "",
+      "id": "5411a1a60197ab17",
+      "kind": "stylesheet",
+      "name": "bootstrap.min.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/5411a1a60197ab17.css",
+      "url": "https://tiwariscaffolding.com/assets/css/bootstrap.min.css"
+    },
+    {
+      "contentType": "",
+      "id": "0825a321a7f85811",
+      "kind": "stylesheet",
+      "name": "all-fontawesome.min.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/0825a321a7f85811.css",
+      "url": "https://tiwariscaffolding.com/assets/css/all-fontawesome.min.css"
+    },
+    {
+      "contentType": "",
+      "id": "b0a13def6708311c",
+      "kind": "stylesheet",
+      "name": "magnific-popup.min.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/b0a13def6708311c.css",
+      "url": "https://tiwariscaffolding.com/assets/css/magnific-popup.min.css"
+    },
+    {
+      "contentType": "",
+      "id": "ee2d19428a33d817",
+      "kind": "stylesheet",
+      "name": "owl.carousel.min.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/ee2d19428a33d817.css",
+      "url": "https://tiwariscaffolding.com/assets/css/owl.carousel.min.css"
+    },
+    {
+      "contentType": "",
+      "id": "d49e4e4d8f7dc0af",
+      "kind": "stylesheet",
+      "name": "animate.min.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/d49e4e4d8f7dc0af.css",
+      "url": "https://tiwariscaffolding.com/assets/css/animate.min.css"
+    },
+    {
+      "contentType": "",
+      "id": "24800ef1b52aecec",
+      "kind": "stylesheet",
+      "name": "nice-select.min.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/24800ef1b52aecec.css",
+      "url": "https://tiwariscaffolding.com/assets/css/nice-select.min.css"
+    },
+    {
+      "contentType": "",
+      "id": "223759bd0fac3503",
+      "kind": "stylesheet",
+      "name": "style.css",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/223759bd0fac3503.css",
+      "url": "https://tiwariscaffolding.com/assets/css/style.css"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "2e7d02c2f5c79d2f",
+      "kind": "image",
+      "name": "whatspp.gif",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/2e7d02c2f5c79d2f.gif",
+      "url": "https://tiwariscaffolding.com/assets/whatspp.gif"
+    },
+    {
+      "contentType": "image/gif",
+      "id": "72f02531a060be35",
+      "kind": "image",
+      "name": "call.gif",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/72f02531a060be35.gif",
+      "url": "https://tiwariscaffolding.com/assets/call.gif"
+    },
+    {
+      "contentType": "image/png",
+      "id": "541731cb4e1add61",
+      "kind": "image",
+      "name": "logo.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/541731cb4e1add61.png",
+      "url": "https://tiwariscaffolding.com/assets/img/logo/logo.png"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "8243404fff8de3bc",
+      "kind": "image",
+      "name": "consultation.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/8243404fff8de3bc.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/consultation.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "107f18789de698d2",
+      "kind": "image",
+      "name": "team-2.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/107f18789de698d2.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/team-2.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "eebb65ae01a23c99",
+      "kind": "image",
+      "name": "material.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/eebb65ae01a23c99.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/material.svg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "9c2187450de7ee0b",
+      "kind": "image",
+      "name": "01.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/9c2187450de7ee0b.jpg",
+      "url": "https://tiwariscaffolding.com/assets/img/about/01.jpg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "3fd6b5e466f707d2",
+      "kind": "image",
+      "name": "happy.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/3fd6b5e466f707d2.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/happy.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "884a58ba1ce89961",
+      "kind": "image",
+      "name": "construction.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/884a58ba1ce89961.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/construction.svg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "2100105f65325906",
+      "kind": "image",
+      "name": "02.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/2100105f65325906.jpg",
+      "url": "https://tiwariscaffolding.com/assets/img/about/02.jpg"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "be07494b5e207e83",
+      "kind": "image",
+      "name": "s5.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/be07494b5e207e83.webp",
+      "url": "https://tiwariscaffolding.com/assets/s5.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "7bde4c54fd73d14d",
+      "kind": "image",
+      "name": "s2.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/7bde4c54fd73d14d.webp",
+      "url": "https://tiwariscaffolding.com/assets/s2.webp"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "bf3bfae05f039a02",
+      "kind": "image",
+      "name": "award.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/bf3bfae05f039a02.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/award.svg"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "57168f816fa76f77",
+      "kind": "image",
+      "name": "s4.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/57168f816fa76f77.webp",
+      "url": "https://tiwariscaffolding.com/assets/s4.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "8a9d024958b01977",
+      "kind": "image",
+      "name": "s1.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/8a9d024958b01977.webp",
+      "url": "https://tiwariscaffolding.com/assets/s1.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "94ea6e937da24253",
+      "kind": "image",
+      "name": "s6.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/94ea6e937da24253.webp",
+      "url": "https://tiwariscaffolding.com/assets/s6.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "c8413ce161e93110",
+      "kind": "image",
+      "name": "s7.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/c8413ce161e93110.webp",
+      "url": "https://tiwariscaffolding.com/assets/s7.webp"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "ea83c8e4c78a703f",
+      "kind": "image",
+      "name": "construction-2.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/ea83c8e4c78a703f.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/construction-2.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "668bf61a98e2a19f",
+      "kind": "image",
+      "name": "money.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/668bf61a98e2a19f.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/money.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "d54b17a8c34e0e69",
+      "kind": "image",
+      "name": "service.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/d54b17a8c34e0e69.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/service.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "c183a294bcbae0cb",
+      "kind": "image",
+      "name": "team.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/c183a294bcbae0cb.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/team.svg"
+    },
+    {
+      "contentType": "image/svg+xml",
+      "id": "1cfd270bf7725435",
+      "kind": "image",
+      "name": "certified.svg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/1cfd270bf7725435.svg",
+      "url": "https://tiwariscaffolding.com/assets/img/icon/certified.svg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "ac3a6735150fdaec",
+      "kind": "image",
+      "name": "01.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/ac3a6735150fdaec.jpg",
+      "url": "https://tiwariscaffolding.com/assets/img/skill/01.jpg"
+    },
+    {
+      "contentType": "image/png",
+      "id": "d4c6a182d662aaf9",
+      "kind": "image",
+      "name": "ts6.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/d4c6a182d662aaf9.png",
+      "url": "https://tiwariscaffolding.com/assets/ts6.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "2b4e66e9780ac7d9",
+      "kind": "image",
+      "name": "ts7.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/2b4e66e9780ac7d9.png",
+      "url": "https://tiwariscaffolding.com/assets/ts7.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "099721256e5ccbac",
+      "kind": "image",
+      "name": "ts4.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/099721256e5ccbac.png",
+      "url": "https://tiwariscaffolding.com/assets/ts4.png"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "5e40d59b9e7731cf",
+      "kind": "image",
+      "name": "01.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/5e40d59b9e7731cf.jpg",
+      "url": "https://tiwariscaffolding.com/assets/img/choose/01.jpg"
+    },
+    {
+      "contentType": "image/png",
+      "id": "1f6d0e4be312b113",
+      "kind": "image",
+      "name": "ts2.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/1f6d0e4be312b113.png",
+      "url": "https://tiwariscaffolding.com/assets/ts2.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "517437f4076c7e34",
+      "kind": "image",
+      "name": "ts1.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/517437f4076c7e34.png",
+      "url": "https://tiwariscaffolding.com/assets/ts1.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "6de2edfb001fe31b",
+      "kind": "image",
+      "name": "ts5.png",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/6de2edfb001fe31b.png",
+      "url": "https://tiwariscaffolding.com/assets/ts5.png"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "1aa217c9402a65f4",
+      "kind": "image",
+      "name": "gt1.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/1aa217c9402a65f4.jpg",
+      "url": "https://tiwariscaffolding.com/assets/gt1.jpg"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "d292a664044180d4",
+      "kind": "image",
+      "name": "g1.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/d292a664044180d4.webp",
+      "url": "https://tiwariscaffolding.com/assets/g1.webp"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "c687ebfb4a57d3d5",
+      "kind": "image",
+      "name": "gt2.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/c687ebfb4a57d3d5.jpg",
+      "url": "https://tiwariscaffolding.com/assets/gt2.jpg"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "bd979a6dd0609da3",
+      "kind": "image",
+      "name": "gt4.jpg",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/bd979a6dd0609da3.jpg",
+      "url": "https://tiwariscaffolding.com/assets/gt4.jpg"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "c204cb369a251062",
+      "kind": "image",
+      "name": "g4.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/c204cb369a251062.webp",
+      "url": "https://tiwariscaffolding.com/assets/g4.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "44dd2064899bfb2b",
+      "kind": "image",
+      "name": "g5.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/44dd2064899bfb2b.webp",
+      "url": "https://tiwariscaffolding.com/assets/g5.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "71c2fa03962f3cfc",
+      "kind": "image",
+      "name": "g6.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/71c2fa03962f3cfc.webp",
+      "url": "https://tiwariscaffolding.com/assets/g6.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "78e2bf72bcc077d4",
+      "kind": "image",
+      "name": "g2.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/78e2bf72bcc077d4.webp",
+      "url": "https://tiwariscaffolding.com/assets/g2.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "1910d78b20e0eb9b",
+      "kind": "image",
+      "name": "g7.webp",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/1910d78b20e0eb9b.webp",
+      "url": "https://tiwariscaffolding.com/assets/g7.webp"
+    },
+    {
+      "contentType": "",
+      "id": "954820bbc73f7396",
+      "kind": "stylesheet",
+      "name": "css2",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/954820bbc73f7396",
+      "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "c50c46394657e794",
+      "kind": "font",
+      "name": "fa-regular-400.woff2",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/c50c46394657e794.woff2",
+      "url": "https://tiwariscaffolding.com/assets/fonts/fa-regular-400.woff2"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "1d511734147f9d4f",
+      "kind": "font",
+      "name": "fa-brands-400.woff2",
+      "path": "/var/folders/3_/zn8m_0zs0m5bfyp3996gd_000000gn/T/browser-use/assets/5c382921-a081-43d7-a68e-58dbd697b242/1d511734147f9d4f.woff2",
+      "url": "https://tiwariscaffolding.com/assets/fonts/fa-brands-400.woff2"
+    }
+  ],
+  "failures": []
+}
