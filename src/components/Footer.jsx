@@ -26,9 +26,8 @@ export default function Footer() {
         <div>
           <h3>Get In Touch</h3>
           <p>
-            A 4/8, Jai Hind Society, Khadi No. 03,<br />
-            90 Ft Road, Sakinaka, Kurla (W),<br />
-            Mumbai 400072
+            Jari Mari, Kurla West,<br />
+            Mumbai
           </p>
           <a href="mailto:vijayshukla301@gmail.com">vijayshukla301@gmail.com</a>
           <a href="tel:+919987317357">+91 99873 17357</a>
