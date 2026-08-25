@@ -3,7 +3,7 @@ export default function WhatsAppButton() {
     <a
       className="whatsapp"
       href="https://wa.me/919987317357"
-      aria-label="WhatsApp"
+      aria-label="Request a scaffolding quote on WhatsApp"
       target="_blank"
       rel="noopener noreferrer"
     >

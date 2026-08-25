@@ -3,27 +3,27 @@ export default function Process() {
     <section className="section process" id="process">
       <div className="container">
         <span className="eyebrow light">Working Process</span>
-        <h2>Easy steps for <em>scaffolding</em></h2>
+        <h2>How Our <em>Scaffolding Service Works</em></h2>
         <div className="steps">
           <article>
             <b>01</b>
-            <h3>Choose Service</h3>
-            <p>Select what your project needs based on height, duration and site conditions.</p>
+            <h3>Share Requirements</h3>
+            <p>Tell us the site location, required height, project type, duration and whether you need material, labour or both.</p>
           </article>
           <article>
             <b>02</b>
-            <h3>Free Consultation</h3>
-            <p>Our experts understand your site and recommend the right solution.</p>
+            <h3>Discuss the Site</h3>
+            <p>We discuss access conditions and the appropriate H-Frame, Cuplock, ladder or accessory requirements.</p>
           </article>
           <article>
             <b>03</b>
-            <h3>Estimate Budget</h3>
-            <p>Transparent, accurate pricing with a clear breakdown and no hidden charges.</p>
+            <h3>Receive a Quote</h3>
+            <p>You receive project-specific rental, sale or labour pricing based on the information provided.</p>
           </article>
           <article>
             <b>04</b>
-            <h3>Project Execution</h3>
-            <p>We deliver, install and manage everything safely and efficiently.</p>
+            <h3>Coordinate Service</h3>
+            <p>Material supply and erection or dismantling labour are coordinated for the agreed Mumbai project location.</p>
           </article>
         </div>
       </div>

@@ -6,16 +6,16 @@ export default function Hero() {
       <div className="container hero-content">
         <span className="eyebrow light">Safety • Strength • Speed</span>
         <h1>
-          Scaffolding Rental &<br />
+          Scaffolding Rental &amp;{' '}<br />
           <em>Labour Services in Mumbai</em>
         </h1>
         <p>
-          Scaffolding materials on rent and sale with skilled installation labour for projects across Mumbai.
+          H-Frame, MS H-Frame, Cuplock systems, ladders and scaffolding materials on rent or sale, with erection and dismantling labour from Sakinaka and Kurla West.
         </p>
         <div className="hero-actions">
-          <a className="btn" href="#services">Explore Products</a>
-          <a className="text-link" href="#about">
-            Discover our story <span>→</span>
+          <a className="btn" href="#contact">Get a Scaffolding Quote</a>
+          <a className="text-link" href="tel:+919987317357">
+            Call +91 99873 17357 <span>→</span>
           </a>
         </div>
       </div>

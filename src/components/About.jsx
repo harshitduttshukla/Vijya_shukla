@@ -4,34 +4,36 @@ export default function About() {
       <div className="container split">
         <div className="image-stack">
           <img
-            src="/assets/project-images/project-02.jpg"
-            alt="Preeti Scaffolding completed project"
+            src="/assets/images/aluminium-mobile-scaffold-mumbai.webp"
+            alt="Mobile aluminium scaffold installed at a Mumbai building entrance"
+            width="750"
+            height="1000"
             loading="lazy"
             decoding="async"
           />
           <div className="experience">
-            <strong>100%</strong>
+            <strong>Safety</strong>
             <span>
-              Site Safety<br />Commitment
+              Focused Site{' '}<br />Support
             </span>
           </div>
         </div>
         <div className="content">
           <span className="eyebrow">About Us</span>
           <h2>
-            Welcome to<br />
+            About{' '}<br />
             <em>Preeti Scaffolding</em>
           </h2>
           <p className="lead">
-            Specialists in labour work and scaffolding material supply on a sales and rental basis.
+            Preeti Scaffolding is a Mumbai-based scaffolding service provider offering material on a rental and sale basis along with erection and dismantling labour.
           </p>
           <p>
-            Preeti Scaffolding provides safe, dependable scaffolding services and quality materials for residential, commercial and industrial projects throughout Mumbai.
+            From Sakinaka and Kurla West, we support residential, commercial and industrial projects with H-Frame, MS H-Frame, Cuplock systems, ladders and accessories.
           </p>
           <p>
-            Led by Vijay Shukla, our team supports every project with reliable labour, timely execution, strong materials and a clear commitment to work-site safety.
+            Proprietor Vijay Shukla coordinates material and labour requirements according to the site, project duration and access needs. Customers can contact us directly for rental pricing, material sales or a labour quotation.
           </p>
-          <a className="btn" href="#contact">Discover More</a>
+          <a className="btn" href="#contact">Contact Preeti Scaffolding</a>
         </div>
       </div>
     </section>

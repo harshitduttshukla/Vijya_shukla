@@ -13,30 +13,30 @@ export default function ServiceAreas() {
           <div>
             <span className="eyebrow">Areas We Serve</span>
             <h2>
-              Scaffolding services<br />
-              <em>across Mumbai</em>
+              Scaffolding Services{' '}<br />
+              <em>Across Mumbai</em>
             </h2>
           </div>
           <p>
-            Based in Sakinaka, we provide material delivery, erection labour and dismantling support throughout Mumbai city and the suburbs.
+            Based in Sakinaka and Kurla West, we coordinate scaffolding material, erection labour and dismantling support throughout Mumbai and nearby project areas.
           </p>
         </div>
         <div className="area-layout">
           <div className="area-copy">
-            <h3>Local scaffolding rental near your project</h3>
+            <h3>Local scaffolding rental near your Mumbai project</h3>
             <p>
-              Preeti Scaffolding supports residential renovations, commercial buildings, industrial maintenance, façade work and construction sites. Our Sakinaka location provides convenient access to Central, Western and South Mumbai project locations.
+              Preeti Scaffolding supports residential renovation, commercial building, industrial maintenance, façade and construction work. Service availability is confirmed according to the project location, material requirement and labour scope.
             </p>
             <p>
-              Contact us for aluminium scaffolding, M.S H-Frame, Cuplock systems, ladders, accessories and experienced scaffolding labour on rent or sale.
+              View our <a href="#h-frame-scaffolding">H-Frame scaffolding</a>, <a href="#cuplock-scaffolding">Cuplock scaffolding</a> and <a href="#aluminium-scaffolding-accessories">aluminium scaffolding and accessories</a>, or ask about <a href="#labour-services">erection and dismantling labour</a>.
             </p>
             <a className="btn" href="tel:+919987317357">Call for Mumbai Service</a>
           </div>
-          <div className="area-list" aria-label="Mumbai service locations">
+          <ul className="area-list" aria-label="Mumbai service locations">
             {areas.map((area) => (
-              <span key={area}>{area}</span>
+              <li key={area}>{area}</li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>

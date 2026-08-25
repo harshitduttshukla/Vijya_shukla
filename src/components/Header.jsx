@@ -18,24 +18,28 @@ export default function Header() {
         </a>
         <button
           className="menu-btn"
-          aria-label="Open menu"
+          aria-label={isOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={isOpen}
+          aria-controls="main-navigation"
           onClick={toggleMenu}
         >
           ☰
         </button>
         <nav
+          id="main-navigation"
           aria-label="Main navigation"
           className={isOpen ? 'open' : ''}
         >
           <a href="#home" onClick={closeMenu}>Home</a>
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#services" onClick={closeMenu}>Services</a>
+          <a href="#labour-services" onClick={closeMenu}>Labour</a>
           <a href="#areas" onClick={closeMenu}>Areas</a>
           <a href="#gallery" onClick={closeMenu}>Gallery</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
         <a className="btn btn-small" href="#contact" onClick={closeMenu}>
-          Get a Quote
+          Get a Scaffolding Quote
         </a>
       </div>
     </header>

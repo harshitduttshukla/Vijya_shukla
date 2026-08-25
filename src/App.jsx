@@ -18,6 +18,10 @@ import WhatsAppButton from './components/WhatsAppButton';
 
 export default function App() {
   useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return undefined;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {

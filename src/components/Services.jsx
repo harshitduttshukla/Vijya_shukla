@@ -1,53 +1,69 @@
 const servicesData = [
   {
     num: '01',
-    img: '/assets/project-images/project-03.jpg',
-    alt: 'H-Frame Scaffolding project',
-    title: (
-      <>
-        H-Frame Scaffolding<br />(Narrow Model)
-      </>
-    ),
-    desc: 'Lightweight, strong access solutions with quick installation and reliable stability.',
+    id: 'h-frame-scaffolding',
+    img: '/assets/images/scaffolding-installation-commercial-mumbai.webp',
+    width: 1000,
+    height: 750,
+    alt: 'H-Frame scaffolding installed around a commercial building in Mumbai',
+    title: 'H-Frame Scaffolding',
+    desc: 'A modular access system used for building façades, renovation and maintenance work. H-Frame material is available on rent or sale, with erection and dismantling labour for Mumbai sites.',
+    linkLabel: 'Request H-Frame Quote',
   },
   {
     num: '02',
-    img: '/assets/project-images/project-04.jpg',
-    alt: 'Cuplock Scaffolding project',
-    title: (
-      <>
-        Cuplock Scaffolding<br />(Stairway Model)
-      </>
-    ),
-    desc: 'Safe non-slip access, strong construction and easy assembly for demanding sites.',
+    id: 'cuplock-stairway-scaffolding',
+    img: '/assets/images/construction-scaffolding-kurla-mumbai.webp',
+    width: 750,
+    height: 1000,
+    alt: 'Scaffolding stairway and access structure at a construction site',
+    title: 'Cuplock Stairway Scaffolding',
+    desc: 'Stairway access helps workers move between scaffold levels on active sites. The required layout depends on height and site conditions, so material and labour are quoted after reviewing the project.',
+    linkLabel: 'Ask About Stairway Systems',
   },
   {
     num: '03',
-    img: '/assets/project-images/project-05.jpg',
-    alt: 'H-frame scaffolding project',
-    title: 'M.S H-Frame',
-    desc: 'High-load, durable platforms for residential, commercial and industrial projects.',
+    id: 'ms-h-frame-scaffolding',
+    img: '/assets/images/exterior-scaffolding-safety-net-mumbai.webp',
+    width: 750,
+    height: 1000,
+    alt: 'MS H-Frame scaffolding with protective netting on a Mumbai building',
+    title: 'MS H-Frame Scaffolding',
+    desc: 'Mild-steel H-Frames provide structured access for construction and exterior work. Frames, braces and related components can be supplied on rent or sale with setup labour.',
+    linkLabel: 'Request MS H-Frame Pricing',
   },
   {
     num: '04',
-    img: '/assets/project-images/project-06.jpg',
-    alt: 'Cuplock scaffolding project',
+    id: 'cuplock-scaffolding',
+    img: '/assets/images/h-frame-scaffolding-installation-mumbai.webp',
+    width: 1000,
+    height: 563,
+    alt: 'Scaffolding framework assembled for interior construction work',
     title: 'Cuplock Scaffolding',
-    desc: 'Fast modular access systems with minimal components and enhanced site safety.',
+    desc: 'Cuplock is a modular system used where flexible horizontal and vertical access is required. We provide components, labour and dismantling support for residential, commercial and industrial projects.',
+    linkLabel: 'Get a Cuplock Quote',
   },
   {
     num: '05',
-    img: '/assets/project-images/project-07.jpg',
-    alt: 'Cuplock Ladders scaffolding project',
-    title: 'Cuplock Ladders Scaffolding',
-    desc: 'Lightweight, corrosion-resistant ladders with secure anti-slip steps.',
+    id: 'scaffolding-ladders',
+    img: '/assets/images/commercial-entrance-scaffolding-mumbai.webp',
+    width: 1000,
+    height: 750,
+    alt: 'Scaffolding access structure installed at a commercial entrance',
+    title: 'Cuplock Ladders',
+    desc: 'Scaffolding ladders provide controlled vertical access within a suitable scaffold arrangement. Availability and installation requirements are confirmed according to the site and working height.',
+    linkLabel: 'Request Ladder Availability',
   },
   {
     num: '06',
-    img: '/assets/project-images/project-08.jpg',
-    alt: 'Scaffolding materials on site',
-    title: 'H-Frame Scaffolding ',
-    desc: 'Quality clamps, couplers, base plates, jacks and essential safety fittings.',
+    id: 'aluminium-scaffolding-accessories',
+    img: '/assets/images/building-facade-scaffolding-mumbai.webp',
+    width: 750,
+    height: 1000,
+    alt: 'Scaffolding installed along the exterior of a multi-storey building',
+    title: 'Aluminium Scaffolding & Accessories',
+    desc: 'Aluminium access equipment and scaffolding accessories support maintenance and construction tasks. Contact us with the required height, duration and Mumbai site location for a suitable quotation.',
+    linkLabel: 'Request Material Pricing',
   },
 ];
 
@@ -57,20 +73,20 @@ export default function Services() {
       <div className="container">
         <div className="section-head">
           <div>
-            <span className="eyebrow">Our Products</span>
-            <h2>Built strong. <em>Built safe.</em></h2>
+            <span className="eyebrow">Our Scaffolding Products</span>
+            <h2>Scaffolding Materials{' '}<br /><em>on Rent &amp; Sale</em></h2>
           </div>
-          <p>Professional scaffolding solutions for construction, maintenance and industrial work.</p>
+          <p>H-Frame, MS H-Frame, Cuplock systems, ladders, aluminium equipment and accessories for residential, commercial and industrial work across Mumbai.</p>
         </div>
         <div className="cards">
           {servicesData.map((item) => (
-            <article className="card" key={item.num}>
-              <img src={item.img} alt={item.alt} loading="lazy" decoding="async" />
+            <article className="card" id={item.id} key={item.num}>
+              <img src={item.img} alt={item.alt} width={item.width} height={item.height} loading="lazy" decoding="async" />
               <div>
                 <span>{item.num}</span>
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>
-                <a href="#contact">Learn More →</a>
+                <a href="#contact">{item.linkLabel} →</a>
               </div>
             </article>
           ))}

@@ -1,0 +1,17 @@
+{
+  "name": "Preeti Scaffolding",
+  "short_name": "Preeti Scaffolding",
+  "description": "Scaffolding rental, material sales and labour services in Mumbai.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A2155",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 export default function Documents() {
   return (
-    <section className="documents">
+    <section className="documents" id="company-document">
       <div className="container document-card">
         <div>
           <span className="eyebrow light">Company Document</span>
@@ -15,7 +15,7 @@ export default function Documents() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          View Letterhead PDF
+          View Official Letterhead
         </a>
       </div>
     </section>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" role="img" aria-labelledby="title desc">
+  <title id="title">Preeti Scaffolding</title>
+  <desc id="desc">PS monogram and Preeti Scaffolding business name</desc>
+  <path d="M12 8h98l-14 104H0z" fill="#F65801"/>
+  <text x="54" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#fff">PS</text>
+  <text x="132" y="62" font-family="Arial, sans-serif" font-size="47" font-weight="800" letter-spacing="3" fill="#0A2155">PREETI</text>
+  <text x="135" y="94" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="8" fill="#252526">SCAFFOLDING</text>
+</svg>

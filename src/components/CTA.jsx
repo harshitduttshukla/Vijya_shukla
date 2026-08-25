@@ -1,13 +1,14 @@
 export default function CTA() {
   return (
-    <section className="cta">
+    <section className="cta" id="labour-services">
       <div className="container">
-        <span className="eyebrow light">Start Strong. Build Safe.</span>
+        <span className="eyebrow light">Skilled Site Support</span>
         <h2>
-          The right support for a<br />
-          <em>stronger, safer build.</em>
+          Scaffolding Erection &amp;{' '}<br />
+          <em>Dismantling Labour</em>
         </h2>
-        <a className="btn" href="#contact">Contact Now</a>
+        <p className="cta-copy">Labour is available for scaffold erection, site setup and dismantling based on the project size, access requirements and Mumbai location.</p>
+        <a className="btn" href="#contact">Request a Labour Quote</a>
       </div>
     </section>
   );
