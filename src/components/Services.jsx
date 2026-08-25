@@ -8,7 +8,8 @@ const servicesData = [
     alt: 'H-Frame scaffolding installed around a commercial building in Mumbai',
     title: 'H-Frame Scaffolding',
     desc: 'A modular access system used for building façades, renovation and maintenance work. H-Frame material is available on rent or sale, with erection and dismantling labour for Mumbai sites.',
-    linkLabel: 'Request H-Frame Quote',
+    linkLabel: 'Read the H-Frame Guide',
+    linkHref: '/h-frame-scaffolding/',
   },
   {
     num: '02',
@@ -19,7 +20,8 @@ const servicesData = [
     alt: 'Scaffolding stairway and access structure at a construction site',
     title: 'Cuplock Stairway Scaffolding',
     desc: 'Stairway access helps workers move between scaffold levels on active sites. The required layout depends on height and site conditions, so material and labour are quoted after reviewing the project.',
-    linkLabel: 'Ask About Stairway Systems',
+    linkLabel: 'Read the Cuplock Guide',
+    linkHref: '/cuplock-scaffolding/',
   },
   {
     num: '03',
@@ -30,7 +32,8 @@ const servicesData = [
     alt: 'MS H-Frame scaffolding with protective netting on a Mumbai building',
     title: 'MS H-Frame Scaffolding',
     desc: 'Mild-steel H-Frames provide structured access for construction and exterior work. Frames, braces and related components can be supplied on rent or sale with setup labour.',
-    linkLabel: 'Request MS H-Frame Pricing',
+    linkLabel: 'Explore MS H-Frame Systems',
+    linkHref: '/h-frame-scaffolding/',
   },
   {
     num: '04',
@@ -41,7 +44,8 @@ const servicesData = [
     alt: 'Scaffolding framework assembled for interior construction work',
     title: 'Cuplock Scaffolding',
     desc: 'Cuplock is a modular system used where flexible horizontal and vertical access is required. We provide components, labour and dismantling support for residential, commercial and industrial projects.',
-    linkLabel: 'Get a Cuplock Quote',
+    linkLabel: 'Read the Cuplock Guide',
+    linkHref: '/cuplock-scaffolding/',
   },
   {
     num: '05',
@@ -52,7 +56,8 @@ const servicesData = [
     alt: 'Scaffolding access structure installed at a commercial entrance',
     title: 'Cuplock Ladders',
     desc: 'Scaffolding ladders provide controlled vertical access within a suitable scaffold arrangement. Availability and installation requirements are confirmed according to the site and working height.',
-    linkLabel: 'Request Ladder Availability',
+    linkLabel: 'Explore Scaffolding Parts',
+    linkHref: '/scaffolding-material-parts/',
   },
   {
     num: '06',
@@ -63,7 +68,8 @@ const servicesData = [
     alt: 'Scaffolding installed along the exterior of a multi-storey building',
     title: 'Aluminium Scaffolding & Accessories',
     desc: 'Aluminium access equipment and scaffolding accessories support maintenance and construction tasks. Contact us with the required height, duration and Mumbai site location for a suitable quotation.',
-    linkLabel: 'Request Material Pricing',
+    linkLabel: 'Read the Aluminium Guide',
+    linkHref: '/aluminium-scaffolding/',
   },
 ];
 
@@ -86,7 +92,7 @@ export default function Services() {
                 <span>{item.num}</span>
                 <h3>{item.title}</h3>
                 <p>{item.desc}</p>
-                <a href="#contact">{item.linkLabel} →</a>
+                <a href={item.linkHref}>{item.linkLabel} →</a>
               </div>
             </article>
           ))}

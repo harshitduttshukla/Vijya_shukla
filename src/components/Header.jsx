@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header>
       <div className="container nav-wrap">
-        <a className="brand" href="#home" onClick={closeMenu}>
+        <a className="brand" href="/" onClick={closeMenu}>
           <span className="brand-mark">PS</span>
           <span>
             <strong>PREETI</strong>
@@ -30,15 +30,15 @@ export default function Header() {
           aria-label="Main navigation"
           className={isOpen ? 'open' : ''}
         >
-          <a href="#home" onClick={closeMenu}>Home</a>
-          <a href="#about" onClick={closeMenu}>About</a>
-          <a href="#services" onClick={closeMenu}>Services</a>
-          <a href="#labour-services" onClick={closeMenu}>Labour</a>
-          <a href="#areas" onClick={closeMenu}>Areas</a>
-          <a href="#gallery" onClick={closeMenu}>Gallery</a>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <a href="/" onClick={closeMenu}>Home</a>
+          <a href="/#about" onClick={closeMenu}>About</a>
+          <a href="/scaffolding-rental-mumbai/" onClick={closeMenu}>Rental</a>
+          <a href="/scaffolding-labour-mumbai/" onClick={closeMenu}>Labour</a>
+          <a href="/scaffolding-guide/" onClick={closeMenu}>Guides</a>
+          <a href="/#areas" onClick={closeMenu}>Areas</a>
+          <a href="/#contact" onClick={closeMenu}>Contact</a>
         </nav>
-        <a className="btn btn-small" href="#contact" onClick={closeMenu}>
+        <a className="btn btn-small" href="/#contact" onClick={closeMenu}>
           Get a Scaffolding Quote
         </a>
       </div>

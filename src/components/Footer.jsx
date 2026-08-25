@@ -3,7 +3,7 @@ export default function Footer() {
     <footer id="contact">
       <div className="container footer-grid">
         <div>
-          <a className="brand brand-light" href="#home">
+          <a className="brand brand-light" href="/">
             <span className="brand-mark">PS</span>
             <span>
               <strong>PREETI</strong>
@@ -15,13 +15,14 @@ export default function Footer() {
         </div>
         <div>
           <h3>Quick Links</h3>
-          <a href="#about">About Us</a>
-          <a href="#services">Scaffolding Rental &amp; Products</a>
-          <a href="#labour-services">Erection &amp; Dismantling Labour</a>
-          <a href="#process">How It Works</a>
-          <a href="#areas">Areas We Serve</a>
-          <a href="#faq">Frequently Asked Questions</a>
-          <a href="#gallery">Gallery</a>
+          <a href="/#about">About Us</a>
+          <a href="/scaffolding-rental-mumbai/">Scaffolding Rental in Mumbai</a>
+          <a href="/scaffolding-material-mumbai/">Scaffolding Material in Mumbai</a>
+          <a href="/scaffolding-labour-mumbai/">Erection &amp; Dismantling Labour</a>
+          <a href="/scaffolding-guide/">Scaffolding Guide</a>
+          <a href="/types-of-scaffolding/">Types of Scaffolding</a>
+          <a href="/scaffolding-safety/">Scaffolding Safety</a>
+          <a href="/#areas">Areas We Serve</a>
           <a href="/assets/documents/preeti-scaffolding-letterhead.pdf" target="_blank" rel="noopener noreferrer">
             Letterhead
           </a>
@@ -49,7 +50,7 @@ export default function Footer() {
       <div className="container copyright">
         <span>© 2026 Preeti Scaffolding. All rights reserved.</span>
         <span>Proprietor: Vijay Shukla · GST: 27MAAPS9233F1ZA</span>
-        <a href="#home">Back to top ↑</a>
+        <a href="#main-content">Back to top ↑</a>
       </div>
     </footer>
   );

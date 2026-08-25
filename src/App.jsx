@@ -10,13 +10,19 @@ import Process from './components/Process';
 import CTA from './components/CTA';
 import WhyChooseUs from './components/WhyChooseUs';
 import ServiceAreas from './components/ServiceAreas';
+import GuideLinks from './components/GuideLinks';
 import FAQ from './components/FAQ';
 import Documents from './components/Documents';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import SeoPage from './components/SeoPage';
+import { getSeoPage, normalizePath } from './content/seoPages';
 
-export default function App() {
+export default function App({ pathname = '/' }) {
+  const currentPath = normalizePath(pathname);
+  const seoPage = getSeoPage(currentPath);
+
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       return undefined;
@@ -45,7 +51,7 @@ export default function App() {
     );
 
     const elements = document.querySelectorAll(
-      '.card, .steps article, .why-list article, .gallery-grid img'
+      '.card, .steps article, .why-list article, .gallery-grid img, .seo-link-card'
     );
 
     elements.forEach((el) => {
@@ -62,20 +68,25 @@ export default function App() {
     <>
       <Topbar />
       <Header />
-      <main>
-        <Hero />
-        <Features />
-        <About />
-        <Stats />
-        <Services />
-        <Process />
-        <CTA />
-        <WhyChooseUs />
-        <ServiceAreas />
-        <FAQ />
-        <Documents />
-        <Gallery />
-      </main>
+      {seoPage ? (
+        <SeoPage page={seoPage} />
+      ) : (
+        <main id="main-content">
+          <Hero />
+          <Features />
+          <About />
+          <Stats />
+          <Services />
+          <Process />
+          <CTA />
+          <WhyChooseUs />
+          <ServiceAreas />
+          <GuideLinks />
+          <FAQ />
+          <Documents />
+          <Gallery />
+        </main>
+      )}
       <Footer />
       <WhatsAppButton />
     </>

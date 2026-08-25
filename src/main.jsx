@@ -6,7 +6,7 @@ import './styles.css';
 const container = document.getElementById('root');
 const application = (
   <React.StrictMode>
-    <App />
+    <App pathname={window.location.pathname} />
   </React.StrictMode>
 );
 
