@@ -2,6 +2,7 @@ import React from 'react';
 import { createRoot, hydrateRoot } from 'react-dom/client';
 import App from './App';
 import './styles.css';
+import './seo-fixes.css';
 
 const container = document.getElementById('root');
 const application = (

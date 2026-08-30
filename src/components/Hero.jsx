@@ -1,7 +1,27 @@
+import { responsiveImageSrcSet } from '../utils/responsiveImages';
+
+const heroImage = '/assets/images/scaffolding-rental-site-mumbai.webp';
+
 export default function Hero() {
   return (
     <section className="hero" id="home">
-      <div className="hero-bg"></div>
+      <picture className="hero-bg" aria-hidden="true">
+        <source
+          type="image/webp"
+          srcSet={responsiveImageSrcSet(heroImage, 1600)}
+          sizes="100vw"
+        />
+        <img
+          src={heroImage}
+          srcSet={responsiveImageSrcSet(heroImage, 1600)}
+          sizes="100vw"
+          alt=""
+          width="1600"
+          height="1200"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
       <div className="hero-overlay"></div>
       <div className="container hero-content">
         <span className="eyebrow light">Safety • Strength • Speed</span>

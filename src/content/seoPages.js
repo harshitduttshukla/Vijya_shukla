@@ -1,6 +1,4 @@
 export const siteUrl = 'https://www.shuklascaffolding.com';
-export const lastModified = '2026-08-25';
-
 export const seoPages = [
   {
     path: '/scaffolding-guide',

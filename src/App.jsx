@@ -17,11 +17,13 @@ import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import SeoPage from './components/SeoPage';
+import NotFound from './components/NotFound';
 import { getSeoPage, normalizePath } from './content/seoPages';
 
 export default function App({ pathname = '/' }) {
   const currentPath = normalizePath(pathname);
   const seoPage = getSeoPage(currentPath);
+  const isHome = currentPath === '/';
 
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -70,7 +72,7 @@ export default function App({ pathname = '/' }) {
       <Header />
       {seoPage ? (
         <SeoPage page={seoPage} />
-      ) : (
+      ) : isHome ? (
         <main id="main-content">
           <Hero />
           <Features />
@@ -86,6 +88,8 @@ export default function App({ pathname = '/' }) {
           <Documents />
           <Gallery />
         </main>
+      ) : (
+        <NotFound />
       )}
       <Footer />
       <WhatsAppButton />

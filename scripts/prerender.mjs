@@ -1,7 +1,8 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { lastModified, seoPages, siteUrl } from '../src/content/seoPages.js';
+import { seoPages, siteUrl } from '../src/content/seoPages.js';
+import { articleImageSizes, responsiveImageSrcSet } from '../src/utils/responsiveImages.js';
 
 const root = process.cwd();
 const htmlPath = resolve(root, 'dist/index.html');
@@ -140,8 +141,6 @@ function pageSchema(page) {
         headline: page.h1,
         description: page.description,
         image: `${siteUrl}${page.image}`,
-        datePublished: lastModified,
-        dateModified: lastModified,
         inLanguage: 'en-IN',
         author: { '@id': `${siteUrl}/#business` },
         publisher: { '@id': `${siteUrl}/#business` },
@@ -154,27 +153,53 @@ function pageSchema(page) {
 function setMeta(html, page) {
   const canonical = pageUrl(page.path);
   const image = `${siteUrl}/assets/images/preeti-scaffolding-mumbai-social.jpg`;
+  const ogType = page.kind === 'article' ? 'article' : 'website';
+  const imageSrcSet = responsiveImageSrcSet(page.image, page.imageWidth);
   const escapeHtml = (value) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const title = escapeHtml(page.title);
   const description = escapeHtml(page.description);
   let output = html;
 
   output = output.replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`);
-  output = output.replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${description}" />`);
+  output = output.replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/>/, `<meta name="description" content="${description}" />`);
   output = output.replace(/<link rel="canonical" href="[^"]*" \/>/, `<link rel="canonical" href="${canonical}" />`);
   output = output.replace(/<link rel="alternate" hreflang="en-IN" href="[^"]*" \/>/, `<link rel="alternate" hreflang="en-IN" href="${canonical}" />`);
+  output = output.replace(/<meta property="og:type" content="[^"]*" \/>/, `<meta property="og:type" content="${ogType}" />`);
   output = output.replace(/<meta property="og:url" content="[^"]*" \/>/, `<meta property="og:url" content="${canonical}" />`);
   output = output.replace(/<meta property="og:title" content="[^"]*" \/>/, `<meta property="og:title" content="${title}" />`);
-  output = output.replace(/<meta property="og:description" content="[^"]*" \/>/, `<meta property="og:description" content="${description}" />`);
-  output = output.replace(/<meta property="og:image" content="[^"]*" \/>/, `<meta property="og:image" content="${image}" />`);
+  output = output.replace(/<meta\s+property="og:description"\s+content="[^"]*"\s*\/>/, `<meta property="og:description" content="${description}" />`);
+  output = output.replace(/<meta\s+property="og:image"\s+content="[^"]*"\s*\/>/, `<meta property="og:image" content="${image}" />`);
   output = output.replace(/<meta name="twitter:title" content="[^"]*" \/>/, `<meta name="twitter:title" content="${title}" />`);
-  output = output.replace(/<meta name="twitter:description" content="[^"]*" \/>/, `<meta name="twitter:description" content="${description}" />`);
-  output = output.replace(/<meta name="twitter:image" content="[^"]*" \/>/, `<meta name="twitter:image" content="${image}" />`);
-  output = output.replace(/<link rel="preload" as="image" href="[^"]*" fetchpriority="high" \/>/, `<link rel="preload" as="image" href="${page.image}" fetchpriority="high" />`);
+  output = output.replace(/<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/>/, `<meta name="twitter:description" content="${description}" />`);
+  output = output.replace(/<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/>/, `<meta name="twitter:image" content="${image}" />`);
+  output = output.replace(
+    /<link\s+id="hero-preload"[\s\S]*?\/>/,
+    `<link id="hero-preload" rel="preload" as="image" href="${page.image}" imagesrcset="${imageSrcSet}" imagesizes="${articleImageSizes}" fetchpriority="high" />`
+  );
   output = output.replace(
     /<script id="structured-data" type="application\/ld\+json">[\s\S]*?<\/script>/,
     `<script id="structured-data" type="application/ld+json">\n${JSON.stringify(pageSchema(page), null, 2)}\n  </script>`
   );
+  return output;
+}
+
+function setNotFoundMeta(html) {
+  const title = 'Page Not Found | Preeti Scaffolding';
+  const description = 'The requested page could not be found. Return to Preeti Scaffolding or browse our Mumbai scaffolding services and practical guides.';
+  let output = html;
+
+  output = output.replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`);
+  output = output.replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/>/, `<meta name="description" content="${description}" />`);
+  output = output.replace(/<meta name="robots" content="[^"]*" \/>/, '<meta name="robots" content="noindex, follow" />');
+  output = output.replace(/\s*<link rel="canonical" href="[^"]*" \/>/, '');
+  output = output.replace(/\s*<link rel="alternate" hreflang="en-IN" href="[^"]*" \/>/, '');
+  output = output.replace(/\s*<meta property="og:url" content="[^"]*" \/>/, '');
+  output = output.replace(/<meta property="og:title" content="[^"]*" \/>/, `<meta property="og:title" content="${title}" />`);
+  output = output.replace(/<meta\s+property="og:description"\s+content="[^"]*"\s*\/>/, `<meta property="og:description" content="${description}" />`);
+  output = output.replace(/<meta name="twitter:title" content="[^"]*" \/>/, `<meta name="twitter:title" content="${title}" />`);
+  output = output.replace(/<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/>/, `<meta name="twitter:description" content="${description}" />`);
+  output = output.replace(/\s*<link\s+id="hero-preload"[\s\S]*?\/>/, '');
+  output = output.replace(/\s*<script id="structured-data" type="application\/ld\+json">[\s\S]*?<\/script>/, '');
   return output;
 }
 
@@ -194,4 +219,7 @@ for (const page of seoPages) {
   await writeFile(outputPath, routeHtml, 'utf8');
 }
 
-console.log(`Prerendered homepage and ${seoPages.length} SEO routes.`);
+const notFoundPath = resolve(root, 'dist/404.html');
+await writeFile(notFoundPath, withAppHtml(setNotFoundMeta(template), '/404'), 'utf8');
+
+console.log(`Prerendered homepage, ${seoPages.length} SEO routes and a custom 404 page.`);

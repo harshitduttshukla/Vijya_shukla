@@ -1,6 +1,6 @@
 import { writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { lastModified, seoPages, siteUrl } from '../src/content/seoPages.js';
+import { seoPages, siteUrl } from '../src/content/seoPages.js';
 
 const entries = [
   { path: '/', priority: '1.0', changefreq: 'monthly' },
@@ -17,7 +17,6 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${entries.map((entry) => `  <url>
     <loc>${pageUrl(entry.path)}</loc>
-    <lastmod>${lastModified}</lastmod>
     <changefreq>${entry.changefreq}</changefreq>
     <priority>${entry.priority}</priority>
   </url>`).join('\n')}

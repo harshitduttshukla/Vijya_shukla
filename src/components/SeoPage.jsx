@@ -1,4 +1,5 @@
 import { guidePages, seoPageByPath, servicePages } from '../content/seoPages';
+import { articleImageSizes, responsiveImageSrcSet } from '../utils/responsiveImages';
 
 function Breadcrumbs({ page }) {
   const isGuideChild = page.kind === 'article';
@@ -102,6 +103,8 @@ export default function SeoPage({ page }) {
             <figure>
               <img
                 src={page.image}
+                srcSet={responsiveImageSrcSet(page.image, page.imageWidth)}
+                sizes={articleImageSizes}
                 alt={page.imageAlt}
                 width={page.imageWidth}
                 height={page.imageHeight}
@@ -116,7 +119,6 @@ export default function SeoPage({ page }) {
 
       <article className="container seo-article">
         <div className="seo-article-meta">
-          <span>Reviewed: 25 August 2026</span>
           <span>Topic: {page.primaryKeyword}</span>
         </div>
 

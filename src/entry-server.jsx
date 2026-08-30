@@ -2,6 +2,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import App from './App';
 import './styles.css';
+import './seo-fixes.css';
 
 export function render(pathname = '/') {
   return renderToString(
