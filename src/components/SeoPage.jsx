@@ -54,6 +54,17 @@ function ContentSection({ section }) {
           </table>
         </div>
       )}
+      {section.links?.length > 0 && (
+        <p className="seo-section-links">
+          <strong>{section.linksLabel || 'Related information'}:</strong>{' '}
+          {section.links.map((link, index) => (
+            <span key={link.path}>
+              {index > 0 && ' · '}
+              <a href={`${link.path}/`}>{link.label}</a>
+            </span>
+          ))}
+        </p>
+      )}
     </section>
   );
 }
@@ -84,6 +95,10 @@ function RelatedContent({ page }) {
 
 export default function SeoPage({ page }) {
   const hubGuidePages = guidePages.filter((item) => item.path !== page.path);
+  const whatsAppHref = page.whatsAppMessage
+    ? `https://wa.me/919987317357?text=${encodeURIComponent(page.whatsAppMessage)}`
+    : 'https://wa.me/919987317357';
+  const heroPrimaryHref = page.heroCta === 'whatsapp' ? whatsAppHref : '/#contact';
 
   return (
     <main className="seo-page" id="main-content">
@@ -96,7 +111,7 @@ export default function SeoPage({ page }) {
               <h1>{page.h1}</h1>
               <p className="seo-direct-answer">{page.directAnswer}</p>
               <div className="seo-hero-actions">
-                <a className="btn" href="/#contact">Request a Project Quote</a>
+                <a className="btn" href={heroPrimaryHref}>{page.heroCtaLabel || 'Request a Project Quote'}</a>
                 <a className="text-link seo-phone-link" href="tel:+919987317357">Call +91 99873 17357 →</a>
               </div>
             </div>
@@ -174,11 +189,11 @@ export default function SeoPage({ page }) {
         </section>
 
         <section className="seo-cta" aria-labelledby="seo-cta-heading">
-          <span className="eyebrow light">Mumbai Scaffolding Enquiry</span>
-          <h2 id="seo-cta-heading">Need Material or Labour for a Mumbai Project?</h2>
-          <p>Preeti Scaffolding provides material on rent and sale with erection and dismantling labour. Share the site location, working height, required system and expected duration for a project-specific quotation.</p>
+          <span className="eyebrow light">{page.ctaEyebrow || 'Mumbai Scaffolding Enquiry'}</span>
+          <h2 id="seo-cta-heading">{page.ctaHeading || 'Need Material or Labour for a Mumbai Project?'}</h2>
+          <p>{page.ctaText || 'Preeti Scaffolding provides material on rent and sale with erection and dismantling labour. Share the site location, working height, required system and expected duration for a project-specific quotation.'}</p>
           <div>
-            <a className="btn" href="https://wa.me/919987317357">WhatsApp Your Requirement</a>
+            <a className="btn" href={whatsAppHref}>{page.ctaButtonLabel || 'WhatsApp Your Requirement'}</a>
             <a className="text-link" href="mailto:vijayshukla301@gmail.com">Email Preeti Scaffolding →</a>
           </div>
         </section>

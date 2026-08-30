@@ -876,29 +876,78 @@ export const seoPages = [
     path: '/scaffolding-rental-mumbai',
     kind: 'service',
     serviceType: 'Scaffolding material rental',
-    title: 'Scaffolding Rental in Mumbai | Material on Rent | Preeti Scaffolding',
-    description: 'Rent H-frame, MS H-frame, Cuplock and related scaffolding material for Mumbai projects, with erection and dismantling labour available by scope.',
+    title: 'Scaffolding Rental Mumbai | H-Frame & Cuplock | Preeti Scaffolding',
+    description: 'Rent H-frame, MS H-frame and Cuplock scaffolding across Mumbai. Choose material-only or add erection and dismantling labour. Request a project quote.',
     eyebrow: 'Mumbai Rental Service',
     h1: 'Scaffolding Rental in Mumbai',
-    directAnswer: 'Preeti Scaffolding provides H-frame, MS H-frame, Cuplock, ladders and related scaffolding material on rent for suitable residential, commercial and industrial projects across Mumbai, with erection and dismantling labour available as a defined scope.',
+    directAnswer: 'Preeti Scaffolding supplies H-frame, MS H-frame, Cuplock, ladders and related scaffolding material on rent for construction, maintenance, repair and façade-access projects across Mumbai, Thane and Navi Mumbai. Request material only or a defined material-plus-labour scope for erection and dismantling. For a useful quotation, share the project location, working height, approximate length or area, required system if known, expected rental dates, site access details and photographs or drawings when available. Availability, transport and final quantities are confirmed for the project.',
     image: '/assets/images/scaffolding-rental-site-mumbai.webp',
-    imageAlt: 'Scaffolding rental material installed at a Mumbai project site',
+    imageAlt: 'Tube scaffolding erected around a commercial building entrance in Mumbai',
     imageWidth: 1600,
     imageHeight: 1200,
     primaryKeyword: 'scaffolding rental Mumbai',
-    secondaryKeywords: ['scaffolding on rent Mumbai', 'scaffolding material on rent Mumbai', 'scaffolding near me'],
+    secondaryKeywords: ['scaffolding on rent Mumbai', 'scaffolding material on rent Mumbai', 'H-frame scaffolding rental Mumbai', 'Cuplock scaffolding rental Mumbai'],
+    heroCta: 'whatsapp',
+    heroCtaLabel: 'Request a Rental Quote',
+    whatsAppMessage: 'Hello Preeti Scaffolding, I need a scaffolding rental quotation. My project location, working height, approximate length or area, system, rental dates and labour requirement are:',
+    ctaEyebrow: 'Mumbai Scaffolding Rental',
+    ctaHeading: 'Request a Scaffolding Rental Quote',
+    ctaText: 'Send the Mumbai site location, working height, approximate length or area, scaffold system if known, rental start and end dates, and whether you need material only or erection and dismantling labour. Photographs or drawings can support the initial discussion.',
+    ctaButtonLabel: 'WhatsApp Rental Details',
     sections: [
       {
-        heading: 'Scaffolding systems available for rental',
+        heading: 'Scaffolding rental in Mumbai: what we provide',
+        paragraphs: [
+          'Material is available for suitable construction, façade repair, painting, maintenance, renovation and other temporary-access requirements. The quotation is matched to the project size, duration, location and selected scope rather than a standard package.',
+          'Availability is confirmed against the quantity, project duration and location. A material name alone is not enough to determine a complete scaffold; platforms, bases, braces, ties, access and protection components must be considered with the layout.'
+        ],
         bullets: [
           'H-frame and MS H-frame scaffolding for suitable repeated access bays',
           'Cuplock standards, ledgers and related modular components',
-          'Cuplock ladders and access components according to the arrangement',
+          'Ladders and access components according to the planned arrangement',
           'Selected aluminium access equipment and scaffolding accessories',
-          'Erection and dismantling labour quoted according to the site scope'
+          'Material-only or material with erection and dismantling labour as an agreed scope'
         ],
+        linksLabel: 'Compare systems',
+        links: [
+          { path: '/h-frame-scaffolding', label: 'H-frame scaffolding guide' },
+          { path: '/cuplock-scaffolding', label: 'Cuplock scaffolding guide' },
+          { path: '/types-of-scaffolding', label: 'types of scaffolding' }
+        ]
+      },
+      {
+        heading: 'H-frame, MS H-frame and Cuplock rental options',
+        table: {
+          headers: ['Rental option', 'Where it may be considered', 'Details needed before selection'],
+          rows: [
+            ['H-frame or MS H-frame', 'Repeated access bays for suitable façades, repairs and general construction work', 'Frame dimensions, bay layout, platform levels, bases, braces, ties and access'],
+            ['Cuplock scaffolding', 'Modular layouts that need standards and ledgers arranged around the project geometry', 'Bay sizes, lifts, intended loads, platform arrangement, bracing, ties and base conditions'],
+            ['Ladders and selected accessories', 'Access and completion of a compatible planned scaffold arrangement', 'System compatibility, quantity, dimensions and intended position']
+          ]
+        },
         paragraphs: [
-          'Availability is confirmed against the quantity, project duration and location. A material name alone is not enough to determine a complete scaffold; platforms, bases, braces, ties, access and protection components must be considered with the layout.'
+          'These options are not interchangeable by name alone. The suitable system and component quantities depend on the work face, ground or support conditions, access, intended loads and the arrangement approved for the site.'
+        ]
+      },
+      {
+        heading: 'Material-only and material-plus-labour scopes',
+        table: {
+          headers: ['Scope item', 'What the quotation should clarify'],
+          rows: [
+            ['Scaffolding material', 'System, component list or planned quantities, rental period and availability'],
+            ['Transport and handling', 'Delivery location, vehicle access, unloading, collection and return responsibilities'],
+            ['Erection and dismantling', 'Whether labour is included, the agreed sequence, programme and handover point'],
+            ['Site planning and controls', 'Who provides the layout or design, foundation preparation, permits, supervision and inspections'],
+            ['Rental return conditions', 'Counting, stacking, loss or damage responsibility and the agreed end of the rental period']
+          ]
+        },
+        paragraphs: [
+          'Do not assume that a material rental automatically includes transport, unloading, erection, alteration, dismantling, inspection or continuous site supervision. These responsibilities should be written into the project-specific scope.'
+        ],
+        linksLabel: 'Scope related services',
+        links: [
+          { path: '/scaffolding-labour-mumbai', label: 'scaffolding erection and dismantling labour' },
+          { path: '/scaffolding-material-mumbai', label: 'scaffolding material supply in Mumbai' }
         ]
       },
       {
@@ -911,12 +960,30 @@ export const seoPages = [
             ['Work activity and expected loads', 'Influences platform and system requirements'],
             ['Rental start and expected duration', 'Allows material availability to be checked'],
             ['Ground and building conditions', 'Identifies foundations, obstructions and tie considerations'],
-            ['Material-only or material with labour', 'Defines responsibilities and quotation scope']
+            ['Material-only or material with labour', 'Defines responsibilities and quotation scope'],
+            ['Photographs, drawings or component list', 'Provides context for the initial discussion before site confirmation']
           ]
         }
       },
       {
-        heading: 'Rental versus purchasing scaffolding material',
+        heading: 'Rental duration, availability and commercial factors',
+        paragraphs: [
+          'Share the intended delivery or start date and the expected return date, even when the programme is provisional. Short-term and longer rental enquiries can be discussed, but availability and commercial terms depend on the system, quantity, location, transport, labour scope and schedule.',
+          'The quoted amount may also reflect taxes, unloading or handling arrangements, alterations, extensions, loss or damage responsibilities and delayed return terms. Comparing two rental offers is useful only when both include the same material quantities and responsibilities.'
+        ]
+      },
+      {
+        heading: 'How the Mumbai scaffolding rental process works',
+        bullets: [
+          'Share the project location, task, dimensions, duration and required system if known.',
+          'Clarify whether material, transport coordination, erection labour and dismantling labour are required.',
+          'Review the proposed scope and identify information that still needs site confirmation.',
+          'Confirm material availability, responsibilities and the project-specific commercial quotation.',
+          'Coordinate delivery, erection scope, rental-period communication and dismantling or return.'
+        ]
+      },
+      {
+        heading: 'When renting may suit better than purchasing',
         table: {
           headers: ['Rental may suit', 'Purchase may suit'],
           rows: [
@@ -928,16 +995,11 @@ export const seoPages = [
         },
         paragraphs: [
           'The commercial comparison should include transport, handling, storage, inspection, replacement of damaged components and the cost of idle stock—not only the daily or monthly rental figure.'
-        ]
-      },
-      {
-        heading: 'How the Mumbai rental process works',
-        bullets: [
-          'Share the project location, task, dimensions, duration and required system if known.',
-          'Clarify whether material, transport coordination, erection labour and dismantling labour are required.',
-          'Review the proposed scope and identify information that still needs site confirmation.',
-          'Confirm material availability and the project-specific commercial quotation.',
-          'Coordinate delivery, erection scope, use-period communication and dismantling or return.'
+        ],
+        linksLabel: 'Planning resources',
+        links: [
+          { path: '/scaffolding-material-parts', label: 'scaffolding materials and parts' },
+          { path: '/scaffolding-guide', label: 'scaffolding planning guide' }
         ]
       },
       {
@@ -946,22 +1008,17 @@ export const seoPages = [
           'Preeti Scaffolding is based in Sakinaka and Kurla West. Project enquiries are accepted across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup, Mulund, Thane and Navi Mumbai.',
           'Serviceability depends on material quantity, labour scope, transport access and scheduling. Share the precise project location instead of relying only on a locality name.'
         ]
-      },
-      {
-        heading: 'Request a project-specific quotation',
-        paragraphs: [
-          'Call or WhatsApp +91 99873 17357, call +91 93242 93900, or email vijayshukla301@gmail.com. Include photographs or drawings if available and identify any narrow access, public frontage, overhead lines or working-hour restrictions.',
-          'A quotation describes the commercial scope; it does not replace the competent site planning, supervision and inspections required for safe use.'
-        ]
       }
     ],
     faqs: [
       { question: 'Which scaffolding systems can I rent in Mumbai?', answer: 'Preeti Scaffolding offers H-frame, MS H-frame, Cuplock, ladders and selected accessories according to the project and material availability.' },
       { question: 'Can I rent scaffolding with erection labour?', answer: 'Yes. Erection and dismantling labour can be quoted with the material requirement after reviewing the site and scope.' },
-      { question: 'Do you provide short-term scaffolding rental?', answer: 'Rental duration is quoted according to material availability, quantity, transport and the project requirement. Share the expected start and end dates.' },
-      { question: 'Do you serve projects outside Sakinaka and Kurla?', answer: 'Yes. Enquiries are accepted across Mumbai, Thane and Navi Mumbai, subject to the project scope and serviceability.' }
+      { question: 'What information is needed for a rental quotation?', answer: 'Share the project location, working height, approximate length or area, intended work, scaffold system if known, rental dates, access conditions and whether you need material only or material with labour. Photographs or drawings are helpful when available.' },
+      { question: 'Can I rent scaffolding material without labour?', answer: 'Yes. Material-only and material-plus-labour requirements can be discussed separately. The quotation should state transport, unloading, erection, dismantling, inspection and return responsibilities.' },
+      { question: 'Do you provide short-term scaffolding rental?', answer: 'Short-term and longer rental requirements can be discussed. Availability and terms depend on the scaffold system, quantity, transport, project dates and labour scope, so share the expected start and return dates.' },
+      { question: 'Which areas do you serve for scaffolding rental?', answer: 'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts project enquiries across Mumbai, Thane and Navi Mumbai, subject to material availability, scope, transport access and scheduling.' }
     ],
-    relatedPaths: ['/h-frame-scaffolding', '/cuplock-scaffolding', '/scaffolding-material-mumbai', '/scaffolding-labour-mumbai']
+    relatedPaths: ['/scaffolding-material-mumbai', '/scaffolding-labour-mumbai', '/h-frame-scaffolding', '/cuplock-scaffolding']
   },
   {
     path: '/scaffolding-material-mumbai',
@@ -1048,34 +1105,72 @@ export const seoPages = [
     path: '/scaffolding-labour-mumbai',
     kind: 'service',
     serviceType: 'Scaffolding erection and dismantling labour',
-    title: 'Scaffolding Labour in Mumbai | Erection & Dismantling',
-    description: 'Arrange scaffolding erection and dismantling labour in Mumbai for suitable H-frame, MS H-frame and Cuplock projects with a clearly defined site scope.',
+    title: 'Scaffolding Labour Mumbai | Erection & Dismantling | Preeti Scaffolding',
+    description: 'Arrange scaffolding erection and dismantling labour across Mumbai for H-frame, MS H-frame and Cuplock systems. Share site details for a project-specific quote.',
     eyebrow: 'Erection & Dismantling',
-    h1: 'Scaffolding Labour Services in Mumbai',
-    directAnswer: 'Preeti Scaffolding provides labour for suitable scaffolding erection and dismantling work across Mumbai. The scope is prepared after discussing the scaffold system, site, height, access, material responsibility, work sequence and expected programme.',
+    h1: 'Scaffolding Erection & Dismantling Labour in Mumbai',
+    directAnswer: 'Preeti Scaffolding provides scaffolding erection and dismantling labour for suitable H-frame, MS H-frame and Cuplock projects across Mumbai, Thane and Navi Mumbai. Erection-only, dismantling-only and combined scopes can be discussed, including projects where compatible material is supplied by another party after responsibility and condition are reviewed. To plan availability and a project-specific quotation, share the site location, scaffold system, working height, approximate length or levels, material responsibility, work dates, access restrictions and photographs or approved drawings when available.',
     image: '/assets/images/scaffolding-labour-site-mumbai.webp',
-    imageAlt: 'Scaffolding labour team working beside an access structure in Mumbai',
+    imageAlt: 'Worker standing beside frame scaffolding erected along a Mumbai building',
     imageWidth: 1000,
     imageHeight: 750,
     primaryKeyword: 'scaffolding labour Mumbai',
-    secondaryKeywords: ['scaffolding work Mumbai', 'scaffolding erection labour', 'scaffolding dismantling labour'],
+    secondaryKeywords: ['scaffolding erection labour Mumbai', 'scaffolding dismantling labour Mumbai', 'scaffolding erection and dismantling Mumbai', 'scaffolding labour contractor Mumbai'],
+    heroCta: 'whatsapp',
+    heroCtaLabel: 'Request a Labour Quote',
+    whatsAppMessage: 'Hello Preeti Scaffolding, I need a scaffolding labour quotation. My site location, scaffold system, working height, approximate length or levels, material responsibility and required work dates are:',
+    ctaEyebrow: 'Mumbai Scaffolding Labour',
+    ctaHeading: 'Request an Erection or Dismantling Labour Quote',
+    ctaText: 'Send the site location, scaffold system, working height, approximate length or levels, whether erection, dismantling or both are required, who supplies the material, preferred work dates and any access restrictions. Include photographs or approved drawings when available.',
+    ctaButtonLabel: 'WhatsApp Labour Details',
     sections: [
       {
-        heading: 'What the labour scope can include',
-        bullets: [
-          'Unloading and organised movement of scaffold components within the agreed site area',
-          'Erection of suitable H-frame, MS H-frame or Cuplock arrangements according to the confirmed plan',
-          'Installation of compatible access, platform and protection components in the scope',
-          'Planned alterations when properly authorised and communicated',
-          'Controlled dismantling and segregation of material after work completion',
-          'Stacking or handover of components according to the agreed responsibility'
-        ],
+        heading: 'Erection, dismantling or combined labour scope',
+        table: {
+          headers: ['Labour requirement', 'Possible scope to define'],
+          rows: [
+            ['Erection only', 'Movement within the agreed work area and assembly of the confirmed H-frame, MS H-frame or Cuplock arrangement'],
+            ['Dismantling only', 'Controlled removal, lowering, segregation, counting support and stacking or handover as agreed'],
+            ['Erection and dismantling', 'Both work stages scheduled around the project programme with responsibilities stated for the period in between'],
+            ['Authorised alterations', 'Planned changes instructed through the designated project authority and included only when agreed']
+          ]
+        },
         paragraphs: [
-          'The final quotation should state what is included and excluded. Design, engineering, transport, material supply, permits, inspections and continuous supervision should not be assumed unless they are expressly part of the agreed scope.'
+          'The labour quotation should describe the scaffold system, work limits, number of stages, dates, material responsibility and handover point. Design, engineering, transport, material supply, permits, inspections and continuous supervision should not be assumed unless they are expressly included.'
+        ],
+        linksLabel: 'Related services',
+        links: [
+          { path: '/scaffolding-rental-mumbai', label: 'scaffolding rental with labour options' },
+          { path: '/scaffolding-material-mumbai', label: 'scaffolding material supply in Mumbai' }
         ]
       },
       {
-        heading: 'Information required before labour is scheduled',
+        heading: 'Labour for H-frame, MS H-frame and Cuplock scaffolding',
+        paragraphs: [
+          'Labour requirements can be discussed for suitable H-frame, MS H-frame and Cuplock work. Each system has different frames or standards, connections, braces, platforms and erection sequences, so the material and planned arrangement should be identified before a team is scheduled.',
+          'State whether the work is a straight façade, an internal area, a multi-level access arrangement or another configuration. Working height alone does not describe the labour requirement; length, bay layout, number of lifts, access, ties, platforms, obstructions and work sequencing also affect the scope.'
+        ],
+        linksLabel: 'System details',
+        links: [
+          { path: '/h-frame-scaffolding', label: 'H-frame scaffolding' },
+          { path: '/cuplock-scaffolding', label: 'Cuplock scaffolding' },
+          { path: '/types-of-scaffolding', label: 'scaffolding system comparison' }
+        ]
+      },
+      {
+        heading: 'When scaffolding material comes from another supplier',
+        paragraphs: [
+          'An erection-only or dismantling-only enquiry may involve material owned by the client or supplied by another contractor. Share the system, component list and responsible contact before scheduling. Material should be complete, compatible, in suitable condition and available in the agreed work area.',
+          'The quotation should state who resolves missing or incompatible components, provides replacements, confirms the layout and accepts the erected scaffold. Labour attendance should not be treated as confirmation that an incomplete or unidentified material set is suitable for use.'
+        ],
+        linksLabel: 'Material planning',
+        links: [
+          { path: '/scaffolding-material-parts', label: 'scaffolding materials and parts guide' },
+          { path: '/scaffolding-safety', label: 'scaffolding safety responsibilities' }
+        ]
+      },
+      {
+        heading: 'Information needed before labour is scheduled',
         table: {
           headers: ['Required detail', 'Planning purpose'],
           rows: [
@@ -1084,12 +1179,13 @@ export const seoPages = [
             ['Height, length, levels and layout', 'Indicates the scale and complexity of work'],
             ['Approved plan or responsible site contact', 'Defines instructions, changes and handover authority'],
             ['Work hours and programme', 'Coordinates labour with other site activities'],
-            ['Hazards and site controls', 'Identifies power lines, traffic, public areas, weather and exclusion zones']
+            ['Hazards and site controls', 'Identifies power lines, traffic, public areas, weather and exclusion zones'],
+            ['Photographs or approved drawings', 'Provides context for the initial discussion and planned arrangement']
           ]
         }
       },
       {
-        heading: 'A typical erection workflow',
+        heading: 'A typical scaffolding erection workflow',
         bullets: [
           'Confirm the work area, foundation preparation, material and planned arrangement.',
           'Establish access control and coordinate the erection zone with the site team.',
@@ -1099,10 +1195,17 @@ export const seoPages = [
         ]
       },
       {
-        heading: 'Controlled alteration and dismantling',
+        heading: 'A controlled scaffolding dismantling workflow',
         paragraphs: [
           'Altering or dismantling a scaffold changes its stability and worker protection. Ties, braces, platforms and access should be removed in a planned sequence under competent supervision, with an exclusion zone for people who are not involved.',
           'Components should not be dropped or thrown. Material should be lowered, inspected for obvious damage and stacked so it can be counted, transported or returned safely.'
+        ],
+        bullets: [
+          'Confirm that the scaffold is released for dismantling and identify the authorised sequence.',
+          'Establish the agreed exclusion zone and coordinate other site activity around it.',
+          'Remove components progressively without leaving an unstable partial arrangement.',
+          'Lower and segregate material rather than dropping or throwing components.',
+          'Stack or hand over material according to the agreed counting and transport responsibility.'
         ]
       },
       {
@@ -1110,23 +1213,30 @@ export const seoPages = [
         paragraphs: [
           'The contractor, property manager, scaffold provider and labour team may have different responsibilities. Before work starts, confirm who provides the design or layout, foundation preparation, material, electrical clearance, permits, inspection, daily control, fall-protection plan and public segregation.',
           'Clear responsibility is especially important when material comes from one supplier and labour from another. Compatibility and completeness should be confirmed before erection begins.'
+        ],
+        linksLabel: 'Before work begins',
+        links: [
+          { path: '/scaffolding-safety', label: 'review scaffolding safety planning' },
+          { path: '/scaffolding-guide', label: 'use the scaffolding planning guide' }
         ]
       },
       {
-        heading: 'Request scaffolding labour in Mumbai',
+        heading: 'Scaffolding labour areas and scheduling in Mumbai',
         paragraphs: [
-          'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai, Thane and Navi Mumbai. Availability depends on the system, scope, site access and schedule.',
-          'Call or WhatsApp +91 99873 17357, call +91 93242 93900, or email vijayshukla301@gmail.com with the project information. Photographs can help an initial discussion but do not replace site confirmation.'
+          'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup and Mulund, as well as Thane and Navi Mumbai.',
+          'Availability depends on the scaffold system, erection or dismantling scope, site access, programme and material readiness. Share preferred dates and the precise project location; photographs can support an initial discussion but do not replace site confirmation.'
         ]
       }
     ],
     faqs: [
-      { question: 'Do you provide only erection labour?', answer: 'Erection-only, dismantling-only or combined scopes can be discussed, depending on the scaffold system, material, site and schedule.' },
-      { question: 'Can labour be provided when material comes from another supplier?', answer: 'It may be possible, but the material system, completeness, compatibility, condition and division of responsibility must be reviewed first.' },
-      { question: 'Who can authorise scaffold alterations?', answer: 'Alterations should be controlled through the competent person or designated project authority responsible for the scaffold plan and site coordination.' },
-      { question: 'Which Mumbai areas do you serve?', answer: 'Enquiries are accepted across Mumbai city and suburbs, Thane and Navi Mumbai, subject to project scope and labour availability.' }
+      { question: 'Do you provide erection-only scaffolding labour?', answer: 'Yes. Erection-only, dismantling-only and combined scopes can be discussed, depending on the scaffold system, material readiness, site conditions, programme and labour availability.' },
+      { question: 'Do you provide dismantling-only labour?', answer: 'A dismantling-only scope can be discussed after identifying the installed scaffold, work area, release authority, access, dismantling sequence, material handover responsibility and preferred dates.' },
+      { question: 'Can labour be provided when material comes from another supplier?', answer: 'It may be possible, but the material system, component completeness, compatibility, condition and division of responsibility must be reviewed before scheduling.' },
+      { question: 'What information is needed for a labour quotation?', answer: 'Share the site location, scaffold system, working height, approximate length or levels, erection or dismantling requirement, material responsibility, preferred dates, access restrictions and photographs or approved drawings when available.' },
+      { question: 'Which scaffolding systems can the labour scope cover?', answer: 'Suitable H-frame, MS H-frame and Cuplock erection or dismantling requirements can be discussed. The final scope depends on the planned arrangement, material, site and schedule.' },
+      { question: 'Which areas do you serve for scaffolding labour?', answer: 'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai, Thane and Navi Mumbai, subject to project scope and availability.' }
     ],
-    relatedPaths: ['/scaffolding-rental-mumbai', '/scaffolding-safety', '/h-frame-scaffolding', '/cuplock-scaffolding']
+    relatedPaths: ['/scaffolding-rental-mumbai', '/scaffolding-material-mumbai', '/scaffolding-safety', '/types-of-scaffolding']
   }
 ];
 

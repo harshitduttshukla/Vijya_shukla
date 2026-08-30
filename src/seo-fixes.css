@@ -48,6 +48,32 @@
   min-height: 44px;
 }
 
+.seo-content-section .seo-section-links {
+  margin-top: 22px;
+  padding: 14px 17px;
+  border-left: 3px solid var(--orange);
+  background: #f7f8f9;
+  color: #65717a;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.seo-section-links strong,
+.seo-section-links a {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.seo-section-links a {
+  text-decoration: underline;
+  text-decoration-color: #f6580166;
+  text-underline-offset: 3px;
+}
+
+.seo-section-links a:hover {
+  color: var(--orange);
+}
+
 .not-found {
   display: grid;
   min-height: 62vh;
