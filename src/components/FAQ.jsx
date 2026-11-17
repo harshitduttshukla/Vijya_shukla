@@ -1,7 +1,7 @@
 const questions = [
   {
     question: 'Do you provide scaffolding on rent in Mumbai?',
-    answer: 'Yes. Preeti Scaffolding supplies scaffolding material on rent for residential, commercial and industrial work across Mumbai, Thane and Navi Mumbai. Availability is confirmed for each site and rental period.',
+    answer: 'Yes. Shukla Scaffolding supplies scaffolding material on rent for residential, commercial and industrial work across Mumbai, Thane and Navi Mumbai. Availability is confirmed for each site and rental period.',
   },
   {
     question: 'Do you sell scaffolding materials?',

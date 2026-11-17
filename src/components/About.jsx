@@ -26,10 +26,10 @@ export default function About() {
           <span className="eyebrow">About Us</span>
           <h2>
             About{' '}<br />
-            <em>Preeti Scaffolding</em>
+            <em>Shukla Scaffolding</em>
           </h2>
           <p className="lead">
-            Preeti Scaffolding is a Mumbai-based scaffolding service provider offering material on a rental and sale basis along with erection and dismantling labour.
+            Shukla Scaffolding is a Mumbai-based scaffolding service provider offering material on a rental and sale basis along with erection and dismantling labour.
           </p>
           <p>
             From Sakinaka and Kurla West, we support residential, commercial and industrial projects with H-Frame, MS H-Frame, Cuplock systems, ladders and accessories.
@@ -37,7 +37,7 @@ export default function About() {
           <p>
             Proprietor Vijay Shukla coordinates material and labour requirements according to the site, project duration and access needs. Customers can contact us directly for rental pricing, material sales or a labour quotation.
           </p>
-          <a className="btn" href="#contact">Contact Preeti Scaffolding</a>
+          <a className="btn" href="#contact">Contact Shukla Scaffolding</a>
         </div>
       </div>
     </section>

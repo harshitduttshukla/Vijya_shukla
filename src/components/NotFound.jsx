@@ -5,7 +5,7 @@ export default function NotFound() {
         <span className="eyebrow">Error 404</span>
         <h1 id="not-found-heading">Page Not Found</h1>
         <p>
-          The page you requested does not exist or may have moved. Use one of the links below to continue browsing Preeti Scaffolding.
+          The page you requested does not exist or may have moved. Use one of the links below to continue browsing Shukla Scaffolding.
         </p>
         <div className="not-found-actions">
           <a className="btn" href="/">Return to Home</a>

@@ -10,9 +10,9 @@ export default function Header() {
     <header>
       <div className="container nav-wrap">
         <a className="brand" href="/" onClick={closeMenu}>
-          <span className="brand-mark">PS</span>
+          <span className="brand-mark">SS</span>
           <span>
-            <strong>PREETI</strong>
+            <strong>SHUKLA</strong>
             <small>SCAFFOLDING</small>
           </span>
         </a>

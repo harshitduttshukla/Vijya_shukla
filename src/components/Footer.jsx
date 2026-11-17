@@ -4,9 +4,9 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <a className="brand brand-light" href="/">
-            <span className="brand-mark">PS</span>
+            <span className="brand-mark">SS</span>
             <span>
-              <strong>PREETI</strong>
+              <strong>SHUKLA</strong>
               <small>SCAFFOLDING</small>
             </span>
           </a>
@@ -23,19 +23,19 @@ export default function Footer() {
           <a href="/types-of-scaffolding/">Types of Scaffolding</a>
           <a href="/scaffolding-safety/">Scaffolding Safety</a>
           <a href="/#areas">Areas We Serve</a>
-          <a href="/assets/documents/preeti-scaffolding-letterhead.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/assets/documents/shukla-scaffolding-letterhead.pdf" target="_blank" rel="noopener noreferrer">
             Letterhead
           </a>
         </div>
         <div>
           <h3>Get In Touch</h3>
           <address>
-            <span>Preeti Scaffolding</span>
+            <span>Shukla Scaffolding</span>
             <span>A 4/8, Jai Hind Society, Khadi No. 03,</span>
             <span>90 Ft Road, Sakinaka, Kurla West,</span>
             <span>Mumbai, Maharashtra 400072</span>
             <a
-              href="https://www.google.com/maps/search/?api=1&amp;query=Preeti%20Scaffolding%2C%2090%20Ft%20Road%2C%20Sakinaka%2C%20Mumbai%20400072"
+              href="https://www.google.com/maps/search/?api=1&amp;query=Shukla%20Scaffolding%2C%2090%20Ft%20Road%2C%20Sakinaka%2C%20Mumbai%20400072"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="container copyright">
-        <span>© 2026 Preeti Scaffolding. All rights reserved.</span>
+        <span>© 2026 Shukla Scaffolding. All rights reserved.</span>
         <span>Proprietor: Vijay Shukla · GST: 27MAAPS9233F1ZA</span>
         <a href="#main-content">Back to top ↑</a>
       </div>

@@ -25,7 +25,7 @@ export default function ServiceAreas() {
           <div className="area-copy">
             <h3>Local scaffolding rental near your Mumbai project</h3>
             <p>
-              Preeti Scaffolding supports residential renovation, commercial building, industrial maintenance, façade and construction work. Service availability is confirmed according to the project location, material requirement and labour scope.
+              Shukla Scaffolding supports residential renovation, commercial building, industrial maintenance, façade and construction work. Service availability is confirmed according to the project location, material requirement and labour scope.
             </p>
             <p>
               View our <a href="#h-frame-scaffolding">H-Frame scaffolding</a>, <a href="#cuplock-scaffolding">Cuplock scaffolding</a> and <a href="#aluminium-scaffolding-accessories">aluminium scaffolding and accessories</a>, or ask about <a href="#labour-services">erection and dismantling labour</a>.

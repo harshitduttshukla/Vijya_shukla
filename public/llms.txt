@@ -1,6 +1,6 @@
-# Preeti Scaffolding
+# Shukla Scaffolding
 
-> Preeti Scaffolding is a Mumbai-based scaffolding company run by proprietor Vijay Shukla. It rents and sells scaffolding material (H-Frame, MS H-Frame, Cuplock, ladders, aluminium and accessories) and provides skilled erection and dismantling labour across Mumbai, Thane and Navi Mumbai.
+> Shukla Scaffolding is a Mumbai-based scaffolding company run by proprietor Vijay Shukla. It rents and sells scaffolding material (H-Frame, MS H-Frame, Cuplock, ladders, aluminium and accessories) and provides skilled erection and dismantling labour across Mumbai, Thane and Navi Mumbai.
 
 Address: A 4/8, Jai Hind Society, Khadi No. 03, 90 Ft Road, Sakinaka, Kurla West, Mumbai, Maharashtra 400072. Phone: +91 99873 17357 / +91 93242 93900. Email: vijayshukla301@gmail.com. GST: 27MAAPS9233F1ZA. For pricing, contact the business directly; prices depend on material, quantity, duration and site.
 
@@ -25,4 +25,4 @@ Address: A 4/8, Jai Hind Society, Khadi No. 03, 90 Ft Road, Sakinaka, Kurla West
 ## Optional
 
 - [Home page](https://www.shuklascaffolding.com/): company overview, gallery, FAQ and contact details
-- [Company letterhead (PDF)](https://www.shuklascaffolding.com/assets/documents/preeti-scaffolding-letterhead.pdf)
+- [Company letterhead (PDF)](https://www.shuklascaffolding.com/assets/documents/shukla-scaffolding-letterhead.pdf)

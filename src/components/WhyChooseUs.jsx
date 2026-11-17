@@ -2,13 +2,13 @@ import { responsiveImageSrcSet } from '../utils/responsiveImages';
 
 export default function WhyChooseUs() {
   return (
-    <section className="section why" id="why-preeti-scaffolding">
+    <section className="section why" id="why-shukla-scaffolding">
       <div className="container split">
         <div>
           <span className="eyebrow">Why Choose Us</span>
           <h2>
             Why Choose{' '}<br />
-            <em>Preeti Scaffolding</em>
+            <em>Shukla Scaffolding</em>
           </h2>
           <p>
             Direct local coordination for scaffolding rental, material sales and labour requirements from Sakinaka and Kurla West.

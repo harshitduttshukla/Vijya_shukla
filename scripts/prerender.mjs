@@ -26,7 +26,7 @@ const pageUrl = (pathname) => pathname === '/' ? `${siteUrl}/` : `${siteUrl}${pa
 const business = {
   '@type': ['LocalBusiness', 'GeneralContractor'],
   '@id': `${siteUrl}/#business`,
-  name: 'Preeti Scaffolding',
+  name: 'Shukla Scaffolding',
   url: `${siteUrl}/`,
   telephone: ['+91-9987317357', '+91-9324293900'],
   email: 'vijayshukla301@gmail.com',
@@ -160,7 +160,7 @@ function pageSchema(page) {
 
 function setMeta(html, page) {
   const canonical = pageUrl(page.path);
-  const image = `${siteUrl}/assets/images/preeti-scaffolding-mumbai-social.jpg`;
+  const image = `${siteUrl}/assets/images/shukla-scaffolding-mumbai-social.jpg`;
   const ogType = page.kind === 'article' ? 'article' : 'website';
   const imageSrcSet = responsiveImageSrcSet(page.image, page.imageWidth);
   const escapeHtml = (value) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -192,8 +192,8 @@ function setMeta(html, page) {
 }
 
 function setNotFoundMeta(html) {
-  const title = 'Page Not Found | Preeti Scaffolding';
-  const description = 'The requested page could not be found. Return to Preeti Scaffolding or browse our Mumbai scaffolding services and practical guides.';
+  const title = 'Page Not Found | Shukla Scaffolding';
+  const description = 'The requested page could not be found. Return to Shukla Scaffolding or browse our Mumbai scaffolding services and practical guides.';
   let output = html;
 
   output = output.replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`);

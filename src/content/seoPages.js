@@ -3,11 +3,11 @@ export const seoPages = [
   {
     path: '/scaffolding-guide',
     kind: 'hub',
-    title: 'Scaffolding Guide: Systems, Materials & Safety | Preeti Scaffolding',
-    description: 'Learn how scaffolding works, compare major systems, understand materials and review practical safety considerations in the Preeti Scaffolding guide.',
+    title: 'Scaffolding Guide: Systems, Materials & Safety | Shukla Scaffolding',
+    description: 'Learn how scaffolding works, compare major systems, understand materials and review practical safety considerations in the Shukla Scaffolding guide.',
     eyebrow: 'Scaffolding Knowledge Hub',
     h1: 'Scaffolding Guide: Systems, Materials & Safety',
-    directAnswer: 'The Preeti Scaffolding guide explains temporary access systems, their components, common applications and practical planning considerations. Use it to understand the options before discussing a Mumbai rental, material or labour requirement.',
+    directAnswer: 'The Shukla Scaffolding guide explains temporary access systems, their components, common applications and practical planning considerations. Use it to understand the options before discussing a Mumbai rental, material or labour requirement.',
     image: '/assets/images/large-scaffold-framework-mumbai.webp',
     imageAlt: 'Large interconnected scaffold framework showing multiple working levels',
     imageWidth: 750,
@@ -50,7 +50,7 @@ export const seoPages = [
   {
     path: '/what-is-scaffolding',
     kind: 'article',
-    title: 'What Is Scaffolding? Meaning, Uses & Materials | Preeti Scaffolding',
+    title: 'What Is Scaffolding? Meaning, Uses & Materials | Shukla Scaffolding',
     description: 'Understand what scaffolding is, how it provides temporary access, its main materials and parts, common uses, limitations and essential planning points.',
     eyebrow: 'Scaffolding Basics',
     h1: 'What Is Scaffolding? Complete Guide to Scaffolding',
@@ -127,7 +127,7 @@ export const seoPages = [
       {
         heading: 'Scaffolding rental and labour in Mumbai',
         paragraphs: [
-          'For Mumbai projects, Preeti Scaffolding supplies scaffolding materials on rent or sale and can arrange erection and dismantling labour. A quotation is prepared after discussing the site, system, approximate quantity, duration and labour scope.',
+          'For Mumbai projects, Shukla Scaffolding supplies scaffolding materials on rent or sale and can arrange erection and dismantling labour. A quotation is prepared after discussing the site, system, approximate quantity, duration and labour scope.',
           'Share photographs or drawings when available, but treat them as initial information. Site conditions and the final work requirement must be confirmed before material and labour are planned.'
         ]
       }
@@ -136,14 +136,14 @@ export const seoPages = [
       { question: 'Is scaffolding permanent?', answer: 'No. Construction scaffolding is normally a temporary access or working structure assembled for a particular task and removed when it is no longer required.' },
       { question: 'What is the difference between scaffolding and a ladder?', answer: 'A ladder mainly provides short-duration access. Scaffolding can provide larger working platforms, multiple levels and space for people, tools and suitable work materials.' },
       { question: 'Who should erect scaffolding?', answer: 'Erection, alteration and dismantling should be carried out by trained and experienced people under competent supervision appropriate to the system and site.' },
-      { question: 'Can scaffolding material be rented in Mumbai?', answer: 'Yes. Preeti Scaffolding offers material rental and sale with erection and dismantling labour according to project requirements.' }
+      { question: 'Can scaffolding material be rented in Mumbai?', answer: 'Yes. Shukla Scaffolding offers material rental and sale with erection and dismantling labour according to project requirements.' }
     ],
     relatedPaths: ['/types-of-scaffolding', '/scaffolding-material-parts', '/scaffolding-safety', '/scaffolding-rental-mumbai']
   },
   {
     path: '/types-of-scaffolding',
     kind: 'article',
-    title: 'Types of Scaffolding: 8 Systems Explained | Preeti Scaffolding',
+    title: 'Types of Scaffolding: 8 Systems Explained | Shukla Scaffolding',
     description: 'Compare eight common types of scaffolding, their support methods, applications, benefits and limitations before discussing a suitable system for your project.',
     eyebrow: 'System Comparison',
     h1: 'Types of Scaffolding: Guide to 8 Scaffold Systems',
@@ -202,7 +202,7 @@ export const seoPages = [
         heading: 'Which scaffolding type should you choose?',
         paragraphs: [
           'Choose only after defining the work. Repetitive façade access may suit H-frames, while a modular Cuplock arrangement may be useful for more varied bay layouts or access structures. A mobile aluminium tower may suit appropriate short-duration work on a firm, level floor. Special cantilever or suspended access needs a specialist assessment.',
-          'Preeti Scaffolding can discuss H-frame, MS H-frame, Cuplock, ladders, aluminium access equipment and related labour for Mumbai projects. Final availability and suitability are confirmed for the actual site.'
+          'Shukla Scaffolding can discuss H-frame, MS H-frame, Cuplock, ladders, aluminium access equipment and related labour for Mumbai projects. Final availability and suitability are confirmed for the actual site.'
         ]
       }
     ],
@@ -217,7 +217,7 @@ export const seoPages = [
   {
     path: '/scaffolding-material-parts',
     kind: 'article',
-    title: 'Scaffolding Materials & Parts Explained | Preeti Scaffolding',
+    title: 'Scaffolding Materials & Parts Explained | Shukla Scaffolding',
     description: 'Learn the functions of scaffold standards, ledgers, braces, platforms, base components, ties, guardrails, ladders and other common scaffolding parts.',
     eyebrow: 'Components & Supply',
     h1: 'Scaffolding Materials and Parts: Complete Guide',
@@ -284,7 +284,7 @@ export const seoPages = [
       {
         heading: 'Scaffolding material supply in Mumbai',
         paragraphs: [
-          'Preeti Scaffolding supplies selected H-frame, MS H-frame, Cuplock, ladder and accessory requirements on rent or sale. Share the system, quantity if known, project location, duration and whether erection or dismantling labour is needed.',
+          'Shukla Scaffolding supplies selected H-frame, MS H-frame, Cuplock, ladder and accessory requirements on rent or sale. Share the system, quantity if known, project location, duration and whether erection or dismantling labour is needed.',
           'If you do not have a component list, provide the work-face dimensions and intended use so the requirement can be discussed. Final component quantities should follow the selected configuration and site plan.'
         ]
       }
@@ -293,14 +293,14 @@ export const seoPages = [
       { question: 'What are the main parts of scaffolding?', answer: 'Typical parts include standards or frames, ledgers, transoms, braces, base plates or jacks, platforms, ties, couplers, guardrails, toe boards and access ladders or stairs.' },
       { question: 'Can scaffold components from different systems be mixed?', answer: 'Only when compatibility, fit and structural integrity have been confirmed by a competent person and the relevant system guidance permits it.' },
       { question: 'Are base jacks used to support weak ground?', answer: 'No. Base jacks can assist with permitted levelling, but the foundation must still be firm and capable of supporting the scaffold and intended loads.' },
-      { question: 'Does Preeti Scaffolding sell scaffold parts?', answer: 'Selected scaffolding systems, ladders and accessories are available on a sale or rental basis according to quantity and availability.' }
+      { question: 'Does Shukla Scaffolding sell scaffold parts?', answer: 'Selected scaffolding systems, ladders and accessories are available on a sale or rental basis according to quantity and availability.' }
     ],
     relatedPaths: ['/what-is-scaffolding', '/h-frame-scaffolding', '/cuplock-scaffolding', '/scaffolding-material-mumbai']
   },
   {
     path: '/h-frame-scaffolding',
     kind: 'article',
-    title: 'H-Frame Scaffolding: Uses, Benefits & Mumbai Rental | Preeti Scaffolding',
+    title: 'H-Frame Scaffolding: Uses, Benefits & Mumbai Rental | Shukla Scaffolding',
     description: 'Learn how H-frame scaffolding works, its main parts, applications, advantages and limitations, and how to request H-frame rental in Mumbai.',
     eyebrow: 'Modular Access System',
     h1: 'H-Frame Scaffolding: Uses, Benefits & Rental in Mumbai',
@@ -360,7 +360,7 @@ export const seoPages = [
       {
         heading: 'H-frame scaffolding rental in Mumbai',
         paragraphs: [
-          'Preeti Scaffolding provides H-frame and MS H-frame material on rent or sale for suitable work across Mumbai, Thane and Navi Mumbai. Erection and dismantling labour can be included as a separate project scope.',
+          'Shukla Scaffolding provides H-frame and MS H-frame material on rent or sale for suitable work across Mumbai, Thane and Navi Mumbai. Erection and dismantling labour can be included as a separate project scope.',
           'For a quotation, share the site location, elevation length and height, intended work, required duration, access restrictions and whether platforms, ladders or other components are required.'
         ]
       }
@@ -369,7 +369,7 @@ export const seoPages = [
       { question: 'What is H-frame scaffolding?', answer: 'It is a supported modular scaffold assembled from prefabricated frames connected with compatible braces and other system components.' },
       { question: 'Where is H-frame scaffolding commonly used?', answer: 'It is commonly considered for regular building façades, painting, plastering, repair, renovation and suitable general construction access.' },
       { question: 'What is MS H-frame scaffolding?', answer: 'MS H-frame scaffolding uses mild-steel prefabricated frames. The complete system also needs compatible braces, bases, platforms, restraints and access components.' },
-      { question: 'Can H-frame scaffolding be rented in Mumbai?', answer: 'Yes. Preeti Scaffolding offers H-frame and MS H-frame material on rent or sale, subject to project requirements and availability.' },
+      { question: 'Can H-frame scaffolding be rented in Mumbai?', answer: 'Yes. Shukla Scaffolding offers H-frame and MS H-frame material on rent or sale, subject to project requirements and availability.' },
       { question: 'Is H-frame better than Cuplock?', answer: 'Not universally. H-frame can suit regular repeated bays, while Cuplock can offer different modular layout options. Site requirements determine the choice.' }
     ],
     relatedPaths: ['/cuplock-scaffolding', '/scaffolding-material-parts', '/scaffolding-rental-mumbai', '/scaffolding-safety']
@@ -377,7 +377,7 @@ export const seoPages = [
   {
     path: '/cuplock-scaffolding',
     kind: 'article',
-    title: 'Cuplock Scaffolding: Guide & Rental in Mumbai | Preeti Scaffolding',
+    title: 'Cuplock Scaffolding: Guide & Rental in Mumbai | Shukla Scaffolding',
     description: 'Understand Cuplock scaffolding components, connections, applications, benefits, limitations and the information needed for Mumbai rental or supply.',
     eyebrow: 'Modular Scaffold System',
     h1: 'Cuplock Scaffolding: Complete Guide & Rental in Mumbai',
@@ -437,7 +437,7 @@ export const seoPages = [
       {
         heading: 'Cuplock scaffolding rental in Mumbai',
         paragraphs: [
-          'Preeti Scaffolding supplies Cuplock components, ladders and suitable stairway arrangements on rent or sale for Mumbai projects. Erection and dismantling labour can be discussed with the material requirement.',
+          'Shukla Scaffolding supplies Cuplock components, ladders and suitable stairway arrangements on rent or sale for Mumbai projects. Erection and dismantling labour can be discussed with the material requirement.',
           'Send the site location, intended application, working height, approximate plan dimensions, platform levels and project duration. If the scaffold has unusual geometry or duty requirements, flag them at the start of the enquiry.'
         ]
       }
@@ -446,7 +446,7 @@ export const seoPages = [
       { question: 'What is Cuplock scaffolding?', answer: 'Cuplock is a modular system that connects ledgers to standards at cup-shaped nodes positioned at regular vertical intervals.' },
       { question: 'What is Cuplock scaffolding used for?', answer: 'It can be used for suitable access scaffolds, working platforms, stairways and other modular arrangements planned for the project.' },
       { question: 'Is Cuplock suitable for construction projects?', answer: 'It can be suitable, but the configuration, loading, foundation, access and restraints must match the specific project.' },
-      { question: 'Can Cuplock scaffolding be rented in Mumbai?', answer: 'Yes. Preeti Scaffolding provides selected Cuplock material on rent or sale with erection and dismantling labour where required.' },
+      { question: 'Can Cuplock scaffolding be rented in Mumbai?', answer: 'Yes. Shukla Scaffolding provides selected Cuplock material on rent or sale with erection and dismantling labour where required.' },
       { question: 'What is the difference between H-frame and Cuplock scaffolding?', answer: 'H-frame uses prefabricated frames and braces; Cuplock uses standards and ledgers joined at modular cup nodes. Their layout flexibility and component sets differ.' }
     ],
     relatedPaths: ['/h-frame-scaffolding', '/scaffolding-material-parts', '/scaffolding-rental-mumbai', '/scaffolding-safety']
@@ -454,7 +454,7 @@ export const seoPages = [
   {
     path: '/aluminium-scaffolding',
     kind: 'article',
-    title: 'Aluminium Scaffolding: Uses & Mumbai Supply | Preeti Scaffolding',
+    title: 'Aluminium Scaffolding: Uses & Mumbai Supply | Shukla Scaffolding',
     description: 'Learn about aluminium scaffolding and mobile towers, their components, appropriate uses, benefits, limitations and important setup considerations.',
     eyebrow: 'Lightweight Access Equipment',
     h1: 'Aluminium Scaffolding: Uses, Benefits & Applications',
@@ -516,7 +516,7 @@ export const seoPages = [
       {
         heading: 'Aluminium scaffolding in Mumbai',
         paragraphs: [
-          'Preeti Scaffolding can discuss aluminium access equipment and related scaffolding accessories for suitable Mumbai work. Availability depends on the required platform height, configuration, duration and site conditions.',
+          'Shukla Scaffolding can discuss aluminium access equipment and related scaffolding accessories for suitable Mumbai work. Availability depends on the required platform height, configuration, duration and site conditions.',
           'Share whether the work is indoors or outdoors, the floor condition, clear working space, required platform size and any obstacles. This helps distinguish a suitable tower requirement from a larger supported scaffold need.'
         ]
       }
@@ -525,14 +525,14 @@ export const seoPages = [
       { question: 'What is aluminium scaffolding used for?', answer: 'It is commonly used for suitable maintenance, installation, inspection, painting and fit-out tasks where a lightweight modular access system is appropriate.' },
       { question: 'Is all aluminium scaffolding mobile?', answer: 'No. Mobile towers use suitable castors; aluminium describes the component material. An aluminium arrangement is mobile only when designed and assembled for that purpose.' },
       { question: 'Can a mobile tower be moved with people on it?', answer: 'Follow the manufacturer and applicable site rules. As a safe default, people, tools and loose materials should be removed before controlled repositioning unless the system and rules specifically permit otherwise.' },
-      { question: 'Is aluminium scaffolding available in Mumbai?', answer: 'Preeti Scaffolding can confirm available aluminium access equipment and accessories after reviewing the project requirements.' }
+      { question: 'Is aluminium scaffolding available in Mumbai?', answer: 'Shukla Scaffolding can confirm available aluminium access equipment and accessories after reviewing the project requirements.' }
     ],
     relatedPaths: ['/mobile-scaffolding', '/types-of-scaffolding', '/scaffolding-safety', '/scaffolding-material-mumbai']
   },
   {
     path: '/mobile-scaffolding',
     kind: 'article',
-    title: 'Mobile Scaffolding: Uses, Components & Safety | Preeti Scaffolding',
+    title: 'Mobile Scaffolding: Uses, Components & Safety | Shukla Scaffolding',
     description: 'Understand mobile scaffold towers, their components, suitable applications, movement controls, stability limits and safe planning considerations.',
     eyebrow: 'Repositionable Access',
     h1: 'Mobile Scaffolding: Uses, Safety & Applications',
@@ -596,7 +596,7 @@ export const seoPages = [
         heading: 'Choosing mobile scaffolding in Mumbai',
         paragraphs: [
           'When asking about a mobile tower, share the platform height rather than only the ceiling height, the indoor or outdoor location, floor condition, available base area and any narrow doors or passages.',
-          'Preeti Scaffolding can review available aluminium access equipment and accessories. If a mobile tower is not suitable, a supported H-frame or Cuplock arrangement may be discussed instead.'
+          'Shukla Scaffolding can review available aluminium access equipment and accessories. If a mobile tower is not suitable, a supported H-frame or Cuplock arrangement may be discussed instead.'
         ]
       }
     ],
@@ -775,7 +775,7 @@ export const seoPages = [
         heading: 'When to choose another system',
         paragraphs: [
           'If a firm, clear foundation is available, an H-frame, Cuplock or other supported system may be simpler. A suspended platform may be considered for certain façade tasks, but it introduces different support, hoist, rope and rescue requirements.',
-          'Preeti Scaffolding’s listed services focus on H-frame, MS H-frame, Cuplock, ladders, aluminium equipment and labour. Contact the business to discuss the actual Mumbai site; specialist configurations are confirmed only after scope review.'
+          'Shukla Scaffolding’s listed services focus on H-frame, MS H-frame, Cuplock, ladders, aluminium equipment and labour. Contact the business to discuss the actual Mumbai site; specialist configurations are confirmed only after scope review.'
         ]
       }
     ],
@@ -856,7 +856,7 @@ export const seoPages = [
         heading: 'Choosing suspended or supported access',
         paragraphs: [
           'Supported H-frame or Cuplock scaffolding can provide wider multi-level platforms and continuous façade access where a suitable foundation is available. Suspended platforms can suit defined vertical work faces but require specialist overhead support and operational controls.',
-          'Preeti Scaffolding’s published services focus on supported systems, aluminium equipment and erection or dismantling labour. Contact the business with the exact site requirement so availability and scope can be confirmed without assuming that a specialised suspended system is offered.'
+          'Shukla Scaffolding’s published services focus on supported systems, aluminium equipment and erection or dismantling labour. Contact the business with the exact site requirement so availability and scope can be confirmed without assuming that a specialised suspended system is offered.'
         ]
       }
     ],
@@ -868,7 +868,7 @@ export const seoPages = [
       { question: 'What supports suspended scaffolding?', answer: 'Designed overhead devices such as outriggers, direct connections, parapet clamps or roof hooks support the platform through suitable suspension ropes and hardware.' },
       { question: 'Where is suspended scaffolding used?', answer: 'It is commonly considered for suitable façade inspection, cleaning, painting, glazing and maintenance tasks on taller structures.' },
       { question: 'Is fall protection still required on a suspended platform?', answer: 'Suspended platforms require the fall-protection systems specified for the platform type, applicable rules and site plan; this commonly includes independent personal fall protection.' },
-      { question: 'Does Preeti Scaffolding supply suspended platforms?', answer: 'Suspended platforms are not listed as a standard service. Contact Preeti Scaffolding to confirm whether the requested scope can be supported or whether another access system is more suitable.' }
+      { question: 'Does Shukla Scaffolding supply suspended platforms?', answer: 'Suspended platforms are not listed as a standard service. Contact Shukla Scaffolding to confirm whether the requested scope can be supported or whether another access system is more suitable.' }
     ],
     relatedPaths: ['/cantilever-scaffolding', '/types-of-scaffolding', '/scaffolding-safety', '/h-frame-scaffolding']
   },
@@ -876,11 +876,11 @@ export const seoPages = [
     path: '/scaffolding-rental-mumbai',
     kind: 'service',
     serviceType: 'Scaffolding material rental',
-    title: 'Scaffolding Rental Mumbai | H-Frame & Cuplock | Preeti Scaffolding',
+    title: 'Scaffolding Rental Mumbai | H-Frame & Cuplock | Shukla Scaffolding',
     description: 'Rent H-frame, MS H-frame and Cuplock scaffolding across Mumbai. Choose material-only or add erection and dismantling labour. Request a project quote.',
     eyebrow: 'Mumbai Rental Service',
     h1: 'Scaffolding Rental in Mumbai',
-    directAnswer: 'Preeti Scaffolding supplies H-frame, MS H-frame, Cuplock, ladders and related scaffolding material on rent for construction, maintenance, repair and façade-access projects across Mumbai, Thane and Navi Mumbai. Request material only or a defined material-plus-labour scope for erection and dismantling. For a useful quotation, share the project location, working height, approximate length or area, required system if known, expected rental dates, site access details and photographs or drawings when available. Availability, transport and final quantities are confirmed for the project.',
+    directAnswer: 'Shukla Scaffolding supplies H-frame, MS H-frame, Cuplock, ladders and related scaffolding material on rent for construction, maintenance, repair and façade-access projects across Mumbai, Thane and Navi Mumbai. Request material only or a defined material-plus-labour scope for erection and dismantling. For a useful quotation, share the project location, working height, approximate length or area, required system if known, expected rental dates, site access details and photographs or drawings when available. Availability, transport and final quantities are confirmed for the project.',
     image: '/assets/images/scaffolding-rental-site-mumbai.webp',
     imageAlt: 'Tube scaffolding erected around a commercial building entrance in Mumbai',
     imageWidth: 1600,
@@ -889,7 +889,7 @@ export const seoPages = [
     secondaryKeywords: ['scaffolding on rent Mumbai', 'scaffolding material on rent Mumbai', 'H-frame scaffolding rental Mumbai', 'Cuplock scaffolding rental Mumbai'],
     heroCta: 'whatsapp',
     heroCtaLabel: 'Request a Rental Quote',
-    whatsAppMessage: 'Hello Preeti Scaffolding, I need a scaffolding rental quotation. My project location, working height, approximate length or area, system, rental dates and labour requirement are:',
+    whatsAppMessage: 'Hello Shukla Scaffolding, I need a scaffolding rental quotation. My project location, working height, approximate length or area, system, rental dates and labour requirement are:',
     ctaEyebrow: 'Mumbai Scaffolding Rental',
     ctaHeading: 'Request a Scaffolding Rental Quote',
     ctaText: 'Send the Mumbai site location, working height, approximate length or area, scaffold system if known, rental start and end dates, and whether you need material only or erection and dismantling labour. Photographs or drawings can support the initial discussion.',
@@ -1005,18 +1005,18 @@ export const seoPages = [
       {
         heading: 'Rental service areas around Mumbai',
         paragraphs: [
-          'Preeti Scaffolding is based in Sakinaka and Kurla West. Project enquiries are accepted across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup, Mulund, Thane and Navi Mumbai.',
+          'Shukla Scaffolding is based in Sakinaka and Kurla West. Project enquiries are accepted across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup, Mulund, Thane and Navi Mumbai.',
           'Serviceability depends on material quantity, labour scope, transport access and scheduling. Share the precise project location instead of relying only on a locality name.'
         ]
       }
     ],
     faqs: [
-      { question: 'Which scaffolding systems can I rent in Mumbai?', answer: 'Preeti Scaffolding offers H-frame, MS H-frame, Cuplock, ladders and selected accessories according to the project and material availability.' },
+      { question: 'Which scaffolding systems can I rent in Mumbai?', answer: 'Shukla Scaffolding offers H-frame, MS H-frame, Cuplock, ladders and selected accessories according to the project and material availability.' },
       { question: 'Can I rent scaffolding with erection labour?', answer: 'Yes. Erection and dismantling labour can be quoted with the material requirement after reviewing the site and scope.' },
       { question: 'What information is needed for a rental quotation?', answer: 'Share the project location, working height, approximate length or area, intended work, scaffold system if known, rental dates, access conditions and whether you need material only or material with labour. Photographs or drawings are helpful when available.' },
       { question: 'Can I rent scaffolding material without labour?', answer: 'Yes. Material-only and material-plus-labour requirements can be discussed separately. The quotation should state transport, unloading, erection, dismantling, inspection and return responsibilities.' },
       { question: 'Do you provide short-term scaffolding rental?', answer: 'Short-term and longer rental requirements can be discussed. Availability and terms depend on the scaffold system, quantity, transport, project dates and labour scope, so share the expected start and return dates.' },
-      { question: 'Which areas do you serve for scaffolding rental?', answer: 'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts project enquiries across Mumbai, Thane and Navi Mumbai, subject to material availability, scope, transport access and scheduling.' }
+      { question: 'Which areas do you serve for scaffolding rental?', answer: 'Shukla Scaffolding is based in Sakinaka and Kurla West and accepts project enquiries across Mumbai, Thane and Navi Mumbai, subject to material availability, scope, transport access and scheduling.' }
     ],
     relatedPaths: ['/scaffolding-material-mumbai', '/scaffolding-labour-mumbai', '/h-frame-scaffolding', '/cuplock-scaffolding']
   },
@@ -1028,7 +1028,7 @@ export const seoPages = [
     description: 'Source H-frame, MS H-frame, Cuplock, ladders and scaffolding accessories in Mumbai on rent or sale, with material and labour scope clearly defined.',
     eyebrow: 'Material Supply in Mumbai',
     h1: 'Scaffolding Material Supplier in Mumbai',
-    directAnswer: 'Preeti Scaffolding supplies H-frame, MS H-frame, Cuplock, ladders and selected scaffolding accessories in Mumbai on rent or sale. Material requirements are confirmed from the intended system, site dimensions, working levels, duration and labour scope.',
+    directAnswer: 'Shukla Scaffolding supplies H-frame, MS H-frame, Cuplock, ladders and selected scaffolding accessories in Mumbai on rent or sale. Material requirements are confirmed from the intended system, site dimensions, working levels, duration and labour scope.',
     image: '/assets/images/large-scaffold-framework-mumbai.webp',
     imageAlt: 'Large scaffold framework assembled from compatible material components',
     imageWidth: 750,
@@ -1088,7 +1088,7 @@ export const seoPages = [
       {
         heading: 'Material supply from Sakinaka and Kurla West',
         paragraphs: [
-          'Preeti Scaffolding receives enquiries for projects across Mumbai, Thane and Navi Mumbai. Final availability, quantities and scheduling are confirmed in the quotation.',
+          'Shukla Scaffolding receives enquiries for projects across Mumbai, Thane and Navi Mumbai. Final availability, quantities and scheduling are confirmed in the quotation.',
           'Call or WhatsApp +91 99873 17357 or email vijayshukla301@gmail.com with the material list and site location. If you need help understanding part names, review the scaffolding materials and parts guide before sending the enquiry.'
         ]
       }
@@ -1105,11 +1105,11 @@ export const seoPages = [
     path: '/scaffolding-labour-mumbai',
     kind: 'service',
     serviceType: 'Scaffolding erection and dismantling labour',
-    title: 'Scaffolding Labour Mumbai | Erection & Dismantling | Preeti Scaffolding',
+    title: 'Scaffolding Labour Mumbai | Erection & Dismantling | Shukla Scaffolding',
     description: 'Arrange scaffolding erection and dismantling labour across Mumbai for H-frame, MS H-frame and Cuplock systems. Share site details for a project-specific quote.',
     eyebrow: 'Erection & Dismantling',
     h1: 'Scaffolding Erection & Dismantling Labour in Mumbai',
-    directAnswer: 'Preeti Scaffolding provides scaffolding erection and dismantling labour for suitable H-frame, MS H-frame and Cuplock projects across Mumbai, Thane and Navi Mumbai. Erection-only, dismantling-only and combined scopes can be discussed, including projects where compatible material is supplied by another party after responsibility and condition are reviewed. To plan availability and a project-specific quotation, share the site location, scaffold system, working height, approximate length or levels, material responsibility, work dates, access restrictions and photographs or approved drawings when available.',
+    directAnswer: 'Shukla Scaffolding provides scaffolding erection and dismantling labour for suitable H-frame, MS H-frame and Cuplock projects across Mumbai, Thane and Navi Mumbai. Erection-only, dismantling-only and combined scopes can be discussed, including projects where compatible material is supplied by another party after responsibility and condition are reviewed. To plan availability and a project-specific quotation, share the site location, scaffold system, working height, approximate length or levels, material responsibility, work dates, access restrictions and photographs or approved drawings when available.',
     image: '/assets/images/scaffolding-labour-site-mumbai.webp',
     imageAlt: 'Worker standing beside frame scaffolding erected along a Mumbai building',
     imageWidth: 1000,
@@ -1118,7 +1118,7 @@ export const seoPages = [
     secondaryKeywords: ['scaffolding erection labour Mumbai', 'scaffolding dismantling labour Mumbai', 'scaffolding erection and dismantling Mumbai', 'scaffolding labour contractor Mumbai'],
     heroCta: 'whatsapp',
     heroCtaLabel: 'Request a Labour Quote',
-    whatsAppMessage: 'Hello Preeti Scaffolding, I need a scaffolding labour quotation. My site location, scaffold system, working height, approximate length or levels, material responsibility and required work dates are:',
+    whatsAppMessage: 'Hello Shukla Scaffolding, I need a scaffolding labour quotation. My site location, scaffold system, working height, approximate length or levels, material responsibility and required work dates are:',
     ctaEyebrow: 'Mumbai Scaffolding Labour',
     ctaHeading: 'Request an Erection or Dismantling Labour Quote',
     ctaText: 'Send the site location, scaffold system, working height, approximate length or levels, whether erection, dismantling or both are required, who supplies the material, preferred work dates and any access restrictions. Include photographs or approved drawings when available.',
@@ -1223,7 +1223,7 @@ export const seoPages = [
       {
         heading: 'Scaffolding labour areas and scheduling in Mumbai',
         paragraphs: [
-          'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup and Mulund, as well as Thane and Navi Mumbai.',
+          'Shukla Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup and Mulund, as well as Thane and Navi Mumbai.',
           'Availability depends on the scaffold system, erection or dismantling scope, site access, programme and material readiness. Share preferred dates and the precise project location; photographs can support an initial discussion but do not replace site confirmation.'
         ]
       }
@@ -1234,7 +1234,7 @@ export const seoPages = [
       { question: 'Can labour be provided when material comes from another supplier?', answer: 'It may be possible, but the material system, component completeness, compatibility, condition and division of responsibility must be reviewed before scheduling.' },
       { question: 'What information is needed for a labour quotation?', answer: 'Share the site location, scaffold system, working height, approximate length or levels, erection or dismantling requirement, material responsibility, preferred dates, access restrictions and photographs or approved drawings when available.' },
       { question: 'Which scaffolding systems can the labour scope cover?', answer: 'Suitable H-frame, MS H-frame and Cuplock erection or dismantling requirements can be discussed. The final scope depends on the planned arrangement, material, site and schedule.' },
-      { question: 'Which areas do you serve for scaffolding labour?', answer: 'Preeti Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai, Thane and Navi Mumbai, subject to project scope and availability.' }
+      { question: 'Which areas do you serve for scaffolding labour?', answer: 'Shukla Scaffolding is based in Sakinaka and Kurla West and accepts suitable labour enquiries across Mumbai, Thane and Navi Mumbai, subject to project scope and availability.' }
     ],
     relatedPaths: ['/scaffolding-rental-mumbai', '/scaffolding-material-mumbai', '/scaffolding-safety', '/types-of-scaffolding']
   }

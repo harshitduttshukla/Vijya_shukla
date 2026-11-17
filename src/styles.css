@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6,.hero h1,.section h2,.cta h2,.features h3,.cards h3,.steps h3,
 .documents{padding:70px 0;background:#0A2155;color:#fff}.document-card{display:flex;align-items:center;justify-content:space-between;gap:45px}.document-card h2{font:700 42px/1.15 Poppins,sans-serif;margin:0 0 12px}.document-card p{max-width:700px;color:#d8e0ef;font-size:14px;line-height:1.8;margin:0}.document-btn{white-space:nowrap}.hero-side strong{font-size:20px;letter-spacing:.5px}.brand-light strong{color:#fff}
 @media(max-width:700px){.document-card{align-items:flex-start;flex-direction:column}.document-card h2{font-size:34px}.hero-side{display:none}.copyright{flex-wrap:wrap}}
 
-/* Preeti Scaffolding's own project photography */
+/* Shukla Scaffolding's own project photography */
 .hero-bg{background:#0b1d29}
 .cta{background-image:linear-gradient(90deg,rgba(10,33,85,.91),rgba(10,33,85,.52)),url('/assets/images/scaffolding-installation-commercial-mumbai.webp')}
 @media(max-width:900px){.cta{background-image:linear-gradient(90deg,rgba(10,33,85,.91),rgba(10,33,85,.52)),url('/assets/images/scaffolding-installation-commercial-mumbai-768w.webp')}}

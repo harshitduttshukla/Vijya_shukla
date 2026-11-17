@@ -126,7 +126,7 @@ export default function SeoPage({ page }) {
                 fetchpriority="high"
                 decoding="async"
               />
-              <figcaption>Preeti Scaffolding project photography from Mumbai work sites.</figcaption>
+              <figcaption>Shukla Scaffolding project photography from Mumbai work sites.</figcaption>
             </figure>
           </div>
         </div>
@@ -191,10 +191,10 @@ export default function SeoPage({ page }) {
         <section className="seo-cta" aria-labelledby="seo-cta-heading">
           <span className="eyebrow light">{page.ctaEyebrow || 'Mumbai Scaffolding Enquiry'}</span>
           <h2 id="seo-cta-heading">{page.ctaHeading || 'Need Material or Labour for a Mumbai Project?'}</h2>
-          <p>{page.ctaText || 'Preeti Scaffolding provides material on rent and sale with erection and dismantling labour. Share the site location, working height, required system and expected duration for a project-specific quotation.'}</p>
+          <p>{page.ctaText || 'Shukla Scaffolding provides material on rent and sale with erection and dismantling labour. Share the site location, working height, required system and expected duration for a project-specific quotation.'}</p>
           <div>
             <a className="btn" href={whatsAppHref}>{page.ctaButtonLabel || 'WhatsApp Your Requirement'}</a>
-            <a className="text-link" href="mailto:vijayshukla301@gmail.com">Email Preeti Scaffolding →</a>
+            <a className="text-link" href="mailto:vijayshukla301@gmail.com">Email Shukla Scaffolding →</a>
           </div>
         </section>
 

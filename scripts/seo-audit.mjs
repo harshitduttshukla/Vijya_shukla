@@ -130,7 +130,7 @@ function auditPage(pathname, expected) {
     if (!schemaTypes.includes(type)) errors.push(`${pathname}: missing ${type} structured data.`);
   });
 
-  if (!html.includes('Preeti Scaffolding') || !html.includes('vijayshukla301@gmail.com') || !html.includes('99873 17357')) {
+  if (!html.includes('Shukla Scaffolding') || !html.includes('vijayshukla301@gmail.com') || !html.includes('99873 17357')) {
     errors.push(`${pathname}: prerendered business identity or contact details are missing.`);
   }
 
@@ -151,8 +151,8 @@ function auditPage(pathname, expected) {
 }
 
 const homeExpected = {
-  title: 'Scaffolding Rental & Labour Services in Mumbai | Preeti Scaffolding',
-  description: 'Preeti Scaffolding offers H-Frame, MS H-Frame and Cuplock scaffolding on rent or sale, plus erection and dismantling labour across Mumbai. Get a quote.',
+  title: 'Scaffolding Rental & Labour Services in Mumbai | Shukla Scaffolding',
+  description: 'Shukla Scaffolding offers H-Frame, MS H-Frame and Cuplock scaffolding on rent or sale, plus erection and dismantling labour across Mumbai. Get a quote.',
   canonical: `${siteUrl}/`,
   h1: 'Scaffolding Rental & Labour Services in Mumbai',
   ogType: 'website',
