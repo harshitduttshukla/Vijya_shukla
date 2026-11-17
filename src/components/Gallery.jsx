@@ -1,3 +1,5 @@
+import { responsiveImageSrcSet } from '../utils/responsiveImages';
+
 const galleryImages = [
   { src: '/assets/images/scaffolding-labour-site-mumbai.webp', alt: 'Scaffolding worker beside an installed access structure', width: 1000, height: 750 },
   { src: '/assets/images/dense-scaffolding-structure-mumbai.webp', alt: 'Dense scaffolding framework assembled between buildings', width: 562, height: 1000 },
@@ -32,6 +34,8 @@ export default function Gallery() {
             <img
               key={idx}
               src={img.src}
+              srcSet={responsiveImageSrcSet(img.src, img.width)}
+              sizes="(max-width: 560px) calc(100vw - 28px), (max-width: 900px) 50vw, 300px"
               alt={img.alt}
               width={img.width}
               height={img.height}

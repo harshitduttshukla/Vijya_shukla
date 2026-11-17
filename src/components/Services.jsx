@@ -1,3 +1,5 @@
+import { responsiveImageSrcSet } from '../utils/responsiveImages';
+
 const servicesData = [
   {
     num: '01',
@@ -87,7 +89,7 @@ export default function Services() {
         <div className="cards">
           {servicesData.map((item) => (
             <article className="card" id={item.id} key={item.num}>
-              <img src={item.img} alt={item.alt} width={item.width} height={item.height} loading="lazy" decoding="async" />
+              <img src={item.img} srcSet={responsiveImageSrcSet(item.img, item.width)} sizes="(max-width: 900px) calc(100vw - 40px), 380px" alt={item.alt} width={item.width} height={item.height} loading="lazy" decoding="async" />
               <div>
                 <span>{item.num}</span>
                 <h3>{item.title}</h3>

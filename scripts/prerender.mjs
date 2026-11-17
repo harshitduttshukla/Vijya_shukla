@@ -8,10 +8,18 @@ const root = process.cwd();
 const htmlPath = resolve(root, 'dist/index.html');
 const serverEntry = resolve(root, '.ssr-dist/entry-server.js');
 
-const [{ render }, template] = await Promise.all([
+const [{ render }, rawTemplate] = await Promise.all([
   import(pathToFileURL(serverEntry)),
   readFile(htmlPath, 'utf8'),
 ]);
+
+// Inline the built stylesheet so it no longer blocks first paint with an extra request.
+const cssLinkPattern = /<link rel="stylesheet"[^>]*href="(\/assets\/[^"]+\.css)"[^>]*>/g;
+let template = rawTemplate;
+for (const [tag, href] of rawTemplate.matchAll(cssLinkPattern)) {
+  const css = await readFile(resolve(root, 'dist', href.slice(1)), 'utf8');
+  template = template.replace(tag, () => `<style>${css}</style>`);
+}
 
 const pageUrl = (pathname) => pathname === '/' ? `${siteUrl}/` : `${siteUrl}${pathname}/`;
 

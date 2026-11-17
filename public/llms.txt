@@ -1,44 +1,28 @@
 # Preeti Scaffolding
 
-Preeti Scaffolding is a Mumbai-based scaffolding service provider operated by Vijay Shukla.
+> Preeti Scaffolding is a Mumbai-based scaffolding company run by proprietor Vijay Shukla. It rents and sells scaffolding material (H-Frame, MS H-Frame, Cuplock, ladders, aluminium and accessories) and provides skilled erection and dismantling labour across Mumbai, Thane and Navi Mumbai.
 
-Official website: https://www.shuklascaffolding.com/
+Address: A 4/8, Jai Hind Society, Khadi No. 03, 90 Ft Road, Sakinaka, Kurla West, Mumbai, Maharashtra 400072. Phone: +91 99873 17357 / +91 93242 93900. Email: vijayshukla301@gmail.com. GST: 27MAAPS9233F1ZA. For pricing, contact the business directly; prices depend on material, quantity, duration and site.
 
 ## Services
 
-- Scaffolding material rental
-- Scaffolding material sales
-- H-Frame and MS H-Frame scaffolding
-- Cuplock scaffolding and stairway systems
-- Scaffolding ladders and accessories
-- Scaffolding erection labour
-- Scaffolding dismantling labour
+- [Scaffolding rental in Mumbai](https://www.shuklascaffolding.com/scaffolding-rental-mumbai/): H-Frame, MS H-Frame, Cuplock and accessories on rent
+- [Scaffolding material in Mumbai](https://www.shuklascaffolding.com/scaffolding-material-mumbai/): scaffolding material and components for sale
+- [Scaffolding labour in Mumbai](https://www.shuklascaffolding.com/scaffolding-labour-mumbai/): erection and dismantling labour teams
 
-## Location and service area
+## Guides
 
-The business is based at A 4/8, Jai Hind Society, Khadi No. 03, 90 Ft Road, Sakinaka, Kurla West, Mumbai, Maharashtra 400072. Service is available across Mumbai, Thane and Navi Mumbai according to project requirements.
+- [Scaffolding knowledge hub](https://www.shuklascaffolding.com/scaffolding-guide/): index of all scaffolding guides
+- [What is scaffolding](https://www.shuklascaffolding.com/what-is-scaffolding/): definition, purpose and uses
+- [Types of scaffolding](https://www.shuklascaffolding.com/types-of-scaffolding/): common scaffold systems compared
+- [Scaffolding materials and parts](https://www.shuklascaffolding.com/scaffolding-material-parts/): frames, braces, couplers, ladders and accessories
+- [H-frame scaffolding](https://www.shuklascaffolding.com/h-frame-scaffolding/): how H-frame systems work and where they are used
+- [Cuplock scaffolding](https://www.shuklascaffolding.com/cuplock-scaffolding/): modular cuplock system overview
+- [Aluminium scaffolding](https://www.shuklascaffolding.com/aluminium-scaffolding/): lightweight aluminium access equipment
+- [Mobile scaffolding](https://www.shuklascaffolding.com/mobile-scaffolding/): mobile tower scaffolds on castors
+- [Scaffolding safety](https://www.shuklascaffolding.com/scaffolding-safety/): site safety practices for scaffold work
 
-## Contact
+## Optional
 
-- Proprietor: Vijay Shukla
-- Phone: +91 99873 17357
-- Alternate phone: +91 93242 93900
-- Email: vijayshukla301@gmail.com
-- GST: 27MAAPS9233F1ZA
-
-For rental pricing, material sales or labour enquiries, contact Preeti Scaffolding directly using the official phone numbers or email above.
-
-## Website resources
-
-- Scaffolding knowledge hub: https://www.shuklascaffolding.com/scaffolding-guide/
-- Scaffolding rental in Mumbai: https://www.shuklascaffolding.com/scaffolding-rental-mumbai/
-- Scaffolding material in Mumbai: https://www.shuklascaffolding.com/scaffolding-material-mumbai/
-- Scaffolding labour in Mumbai: https://www.shuklascaffolding.com/scaffolding-labour-mumbai/
-- What is scaffolding: https://www.shuklascaffolding.com/what-is-scaffolding/
-- Types of scaffolding: https://www.shuklascaffolding.com/types-of-scaffolding/
-- Scaffolding materials and parts: https://www.shuklascaffolding.com/scaffolding-material-parts/
-- H-frame scaffolding: https://www.shuklascaffolding.com/h-frame-scaffolding/
-- Cuplock scaffolding: https://www.shuklascaffolding.com/cuplock-scaffolding/
-- Aluminium scaffolding: https://www.shuklascaffolding.com/aluminium-scaffolding/
-- Mobile scaffolding: https://www.shuklascaffolding.com/mobile-scaffolding/
-- Scaffolding safety: https://www.shuklascaffolding.com/scaffolding-safety/
+- [Home page](https://www.shuklascaffolding.com/): company overview, gallery, FAQ and contact details
+- [Company letterhead (PDF)](https://www.shuklascaffolding.com/assets/documents/preeti-scaffolding-letterhead.pdf)

@@ -1,3 +1,5 @@
+import { responsiveImageSrcSet } from '../utils/responsiveImages';
+
 export default function WhyChooseUs() {
   return (
     <section className="section why" id="why-preeti-scaffolding">
@@ -38,6 +40,8 @@ export default function WhyChooseUs() {
         <img
           className="why-image"
           src="/assets/images/gate-scaffolding-installation-mumbai.webp"
+          srcSet={responsiveImageSrcSet('/assets/images/gate-scaffolding-installation-mumbai.webp', 1000)}
+          sizes="(max-width: 900px) calc(100vw - 40px), 560px"
           alt="Scaffolding framework installed above an entrance in Mumbai"
           width="1000"
           height="750"

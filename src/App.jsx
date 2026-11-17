@@ -34,17 +34,7 @@ export default function App({ pathname = '/' }) {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.animate(
-              [
-                { opacity: 0, transform: 'translateY(22px)' },
-                { opacity: 1, transform: 'translateY(0)' },
-              ],
-              {
-                duration: 650,
-                easing: 'ease-out',
-                fill: 'forwards',
-              }
-            );
+            entry.target.classList.add('revealed');
             observer.unobserve(entry.target);
           }
         });
@@ -52,18 +42,12 @@ export default function App({ pathname = '/' }) {
       { threshold: 0.08 }
     );
 
-    const elements = document.querySelectorAll(
-      '.card, .steps article, .why-list article, .gallery-grid img, .seo-link-card'
-    );
+    document
+      .querySelectorAll('.card, .steps article, .why-list article, .gallery-grid img, .seo-link-card')
+      .forEach((el) => observer.observe(el));
+    document.documentElement.classList.add('reveal-ready');
 
-    elements.forEach((el) => {
-      el.style.opacity = '0';
-      observer.observe(el);
-    });
-
-    return () => {
-      observer.disconnect();
-    };
+    return () => observer.disconnect();
   }, []);
 
   return (

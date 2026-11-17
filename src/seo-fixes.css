@@ -126,3 +126,20 @@
     width: 100%;
   }
 }
+
+/* ---- PageSpeed fixes ---- */
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
+
+/* Accessible contrast: darker orange for text/buttons on light backgrounds (5.1:1 on white),
+   bright brand orange kept on dark sections where it already passes. */
+:root{--orange:#c24400;--muted:#5c656a}
+.hero,.stats,.process,.cta,footer,.topbar,.documents,.seo-cta,.features article{--orange:#ff8a3d}
+.btn,.experience,.why-list b,.brand-mark{background:#c24400;color:#fff}
+.btn:hover{background:#a33900}
+.features p{color:#d8e0ef}
+
+/* Reveal animation without inline style writes (avoids forced reflow) */
+.reveal-ready :is(.card,.steps article,.why-list article,.gallery-grid img,.seo-link-card):not(.revealed){opacity:0}
+.revealed{animation:reveal-up .65s ease-out both}
+@keyframes reveal-up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.reveal-ready :is(.card,.steps article,.why-list article,.gallery-grid img,.seo-link-card){opacity:1!important;animation:none}}

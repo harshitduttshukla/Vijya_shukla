@@ -1,3 +1,5 @@
+import { responsiveImageSrcSet } from '../utils/responsiveImages';
+
 export default function About() {
   return (
     <section className="section about" id="about">
@@ -5,6 +7,8 @@ export default function About() {
         <div className="image-stack">
           <img
             src="/assets/images/aluminium-mobile-scaffold-mumbai.webp"
+            srcSet={responsiveImageSrcSet('/assets/images/aluminium-mobile-scaffold-mumbai.webp', 750)}
+            sizes="(max-width: 900px) calc(100vw - 40px), 560px"
             alt="Mobile aluminium scaffold installed at a Mumbai building entrance"
             width="750"
             height="1000"
