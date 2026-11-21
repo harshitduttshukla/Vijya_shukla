@@ -31,6 +31,15 @@
 No rates are published anywhere. The price post explains the cost factors and sends readers to Call/WhatsApp.
 Posts are about 650–1,100 words of unique content each, which is shorter than the brief's 1,000–1,800. They can be expanded later with real site examples.
 
+## Batch 3: 21 November 2026 (location pages)
+
+| Change | Files |
+|---|---|
+| 4 new location pages: `/scaffolding-on-rent-andheri/`, `-powai/`, `-thane/`, `-navi-mumbai/`. Each is written around that area's geography, building types, the route from the Sakinaka yard, and local delivery points. There are no fake projects, reviews or prices. | src/content/locationPages.js (new), seoPages.js |
+| The homepage "Areas We Serve" list now links to these 4 pages; footer and rental-page links added | ServiceAreas.jsx, Footer.jsx, seoPages.js |
+
+Each page has about 500–600 words of unique content plus a shared "what we provide" block. The owner confirmed the same service everywhere (scaffolding on rent plus erection/dismantling labour, for any type of work), so more area pages were not made, to avoid near-duplicate doorway pages.
+
 ### Placeholders and info still needed
 - ~~Manufacturing~~: confirmed **no**. The site stays "supplier", and no manufacturer page will be made.
 - ~~Opening hours~~: **8 AM–11 PM daily**. This has been added to the schema and the footer.

@@ -1,4 +1,5 @@
 import { blogHub, blogPosts } from './blogPosts.js';
+import { locationPages } from './locationPages.js';
 
 export const siteUrl = 'https://www.shuklascaffolding.com';
 export const seoPages = [
@@ -1088,6 +1089,13 @@ export const seoPages = [
         paragraphs: [
           'Shukla Scaffolding is based in Sakinaka and Kurla West. Project enquiries are accepted across Mumbai city and suburbs, including Andheri, Powai, Ghatkopar, Chembur, Bandra, Goregaon, Malad, Borivali, Bhandup, Mulund, Thane and Navi Mumbai.',
           'Serviceability depends on material quantity, labour scope, transport access and scheduling. Share the precise project location instead of relying only on a locality name.'
+        ],
+        linksLabel: 'Area pages',
+        links: [
+          { path: '/scaffolding-on-rent-andheri', label: 'scaffolding on rent in Andheri' },
+          { path: '/scaffolding-on-rent-powai', label: 'Powai' },
+          { path: '/scaffolding-on-rent-thane', label: 'Thane' },
+          { path: '/scaffolding-on-rent-navi-mumbai', label: 'Navi Mumbai' }
         ]
       }
     ],
@@ -1460,7 +1468,7 @@ export const seoPages = [
   }
 ];
 
-seoPages.push(blogHub, ...blogPosts);
+seoPages.push(...locationPages, blogHub, ...blogPosts);
 
 export const normalizePath = (pathname = '/') => {
   const cleanPath = pathname.split('?')[0].split('#')[0] || '/';

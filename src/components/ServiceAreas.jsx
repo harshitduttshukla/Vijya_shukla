@@ -5,6 +5,13 @@ const areas = [
   'Colaba', 'Mulund', 'Bhandup', 'Mumbai Central', 'Navi Mumbai', 'Thane'
 ];
 
+const areaPages = {
+  Andheri: '/scaffolding-on-rent-andheri/',
+  Powai: '/scaffolding-on-rent-powai/',
+  Thane: '/scaffolding-on-rent-thane/',
+  'Navi Mumbai': '/scaffolding-on-rent-navi-mumbai/',
+};
+
 export default function ServiceAreas() {
   return (
     <section className="section service-areas" id="areas">
@@ -34,7 +41,9 @@ export default function ServiceAreas() {
           </div>
           <ul className="area-list" aria-label="Mumbai service locations">
             {areas.map((area) => (
-              <li key={area}>{area}</li>
+              <li key={area}>
+                {areaPages[area] ? <a href={areaPages[area]}>{area}</a> : area}
+              </li>
             ))}
           </ul>
         </div>
