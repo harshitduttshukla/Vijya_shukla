@@ -24,18 +24,18 @@ export default function Hero() {
       </picture>
       <div className="hero-overlay"></div>
       <div className="container hero-content">
-        <span className="eyebrow light">Safety • Strength • Speed</span>
+        <span className="eyebrow light">10+ Years in Mumbai • Safety • Speed</span>
         <h1>
-          Scaffolding Rental &amp;{' '}<br />
-          <em>Labour Services in Mumbai</em>
+          Scaffolding in Mumbai:{' '}<br />
+          <em>On Rent, Sale &amp; Labour</em>
         </h1>
         <p>
-          H-Frame, MS H-Frame, Cuplock systems, ladders and scaffolding materials on rent or sale, with erection and dismantling labour from Sakinaka and Kurla West.
+          Scaffolding on rent in Mumbai for over 10 years: H-Frame, MS H-Frame, Cuplock, aluminium mobile towers (all heights), MS pipes and clamps, props, shuttering and jacks, with erection and dismantling labour from Sakinaka and Kurla West.
         </p>
         <div className="hero-actions">
-          <a className="btn" href="#contact">Get a Scaffolding Quote</a>
-          <a className="text-link" href="tel:+919987317357">
-            Call +91 99873 17357 <span>→</span>
+          <a className="btn" href="tel:+919987317357">Call +91 99873 17357</a>
+          <a className="text-link" href="https://wa.me/919987317357?text=Hello%20Shukla%20Scaffolding%2C%20I%20need%20scaffolding%20on%20rent%20in%20Mumbai.">
+            WhatsApp for a Quote <span>→</span>
           </a>
         </div>
       </div>

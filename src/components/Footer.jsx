@@ -10,16 +10,18 @@ export default function Footer() {
               <small>SCAFFOLDING</small>
             </span>
           </a>
-          <p>Specialists in labour work and scaffolding material supply on sale and rent basis.</p>
+          <p>Scaffolding on rent and sale with erection and dismantling labour in Mumbai for over 10 years.</p>
           <p><strong>GST No.</strong> 27MAAPS9233F1ZA</p>
         </div>
         <div>
           <h3>Quick Links</h3>
           <a href="/#about">About Us</a>
-          <a href="/scaffolding-rental-mumbai/">Scaffolding Rental in Mumbai</a>
+          <a href="/scaffolding-rental-mumbai/">Scaffolding on Rent in Mumbai</a>
+          <a href="/aluminium-scaffolding-on-rent-mumbai/">Aluminium Mobile Tower on Rent</a>
           <a href="/scaffolding-material-mumbai/">Scaffolding Material in Mumbai</a>
           <a href="/scaffolding-labour-mumbai/">Erection &amp; Dismantling Labour</a>
           <a href="/scaffolding-guide/">Scaffolding Guide</a>
+          <a href="/blog/">Scaffolding Blog</a>
           <a href="/types-of-scaffolding/">Types of Scaffolding</a>
           <a href="/scaffolding-safety/">Scaffolding Safety</a>
           <a href="/#areas">Areas We Serve</a>
@@ -44,6 +46,7 @@ export default function Footer() {
             <a href="mailto:vijayshukla301@gmail.com">vijayshukla301@gmail.com</a>
             <a href="tel:+919987317357">+91 99873 17357</a>
             <a href="tel:+919324293900">+91 93242 93900</a>
+            <span>Open daily: 8:00 AM – 11:00 PM</span>
           </address>
         </div>
       </div>

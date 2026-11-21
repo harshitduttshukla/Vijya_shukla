@@ -66,6 +66,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.shuklascaffolding.com/aluminium-scaffolding-on-rent-mumbai/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.shuklascaffolding.com/scaffolding-material-mumbai/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -74,5 +79,40 @@
     <loc>https://www.shuklascaffolding.com/scaffolding-labour-mumbai/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/scaffolding-rent-price-mumbai/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/aluminium-vs-ms-scaffolding/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/cuplock-vs-h-frame-scaffolding/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/scaffolding-rent-vs-buy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/scaffolding-for-society-painting-mumbai/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.shuklascaffolding.com/blog/checklist-before-renting-scaffolding/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

@@ -1,9 +1,11 @@
+import { blogHub, blogPosts } from './blogPosts.js';
+
 export const siteUrl = 'https://www.shuklascaffolding.com';
 export const seoPages = [
   {
     path: '/scaffolding-guide',
     kind: 'hub',
-    title: 'Scaffolding Guide: Systems, Materials & Safety | Shukla Scaffolding',
+    title: 'Scaffolding Guide: Systems, Materials & Safety',
     description: 'Learn how scaffolding works, compare major systems, understand materials and review practical safety considerations in the Shukla Scaffolding guide.',
     eyebrow: 'Scaffolding Knowledge Hub',
     h1: 'Scaffolding Guide: Systems, Materials & Safety',
@@ -50,7 +52,7 @@ export const seoPages = [
   {
     path: '/what-is-scaffolding',
     kind: 'article',
-    title: 'What Is Scaffolding? Meaning, Uses & Materials | Shukla Scaffolding',
+    title: 'What Is Scaffolding? Meaning, Uses & Materials',
     description: 'Understand what scaffolding is, how it provides temporary access, its main materials and parts, common uses, limitations and essential planning points.',
     eyebrow: 'Scaffolding Basics',
     h1: 'What Is Scaffolding? Complete Guide to Scaffolding',
@@ -143,18 +145,45 @@ export const seoPages = [
   {
     path: '/types-of-scaffolding',
     kind: 'article',
-    title: 'Types of Scaffolding: 8 Systems Explained | Shukla Scaffolding',
-    description: 'Compare eight common types of scaffolding, their support methods, applications, benefits and limitations before discussing a suitable system for your project.',
+    title: '8 Types of Scaffolding (With Pictures & Names)',
+    description: '8 types of scaffolding with names, real site pictures and uses: H-frame, Cuplock, tube & coupler, aluminium, mobile, trestle, cantilever, suspended.',
     eyebrow: 'System Comparison',
-    h1: 'Types of Scaffolding: Guide to 8 Scaffold Systems',
-    directAnswer: 'Scaffolding types can be grouped by their components and by how the structure is supported. Common examples include H-frame, Cuplock, tube-and-coupler, aluminium tower, mobile, trestle, cantilever and suspended scaffolding.',
+    h1: '8 Types of Scaffolding: Names, Pictures & Uses',
+    directAnswer: 'The 8 types of scaffolding are: 1. H-frame scaffolding, 2. Cuplock scaffolding, 3. Tube-and-coupler scaffolding, 4. Aluminium tower scaffolding, 5. Mobile scaffolding, 6. Trestle scaffolding, 7. Cantilever scaffolding and 8. Suspended scaffolding. They differ in their components and in how the structure is supported: from the ground, on wheels, from the building, or hung from above.',
     image: '/assets/images/dense-scaffolding-structure-mumbai.webp',
     imageAlt: 'Dense modular scaffold structure illustrating multiple scaffold bays',
     imageWidth: 562,
     imageHeight: 1000,
     primaryKeyword: 'types of scaffolding',
-    secondaryKeywords: ['scaffolding types', '8 types of scaffolding', 'scaffolding systems'],
+    secondaryKeywords: ['scaffolding types', '8 types of scaffolding', 'scaffolding types with pictures', 'scaffolding names', 'types of scaffolding in construction', 'scaffolding systems'],
     sections: [
+      {
+        heading: 'Types of scaffolding with pictures',
+        paragraphs: [
+          'These photographs are from real Shukla Scaffolding work sites in Mumbai. They show the scaffolding types most often used on Indian building, repair and painting projects. Each type is explained in the table and sections below.'
+        ],
+        images: [
+          { src: '/assets/images/scaffolding-installation-commercial-mumbai.webp', width: 1000, height: 750, alt: 'H-frame scaffolding installed around a commercial building entrance in Mumbai', caption: 'H-frame scaffolding' },
+          { src: '/assets/images/cuplock-scaffolding-platform-mumbai.webp', width: 750, height: 1000, alt: 'Cuplock scaffolding standards and ledgers inside a building shaft in Mumbai', caption: 'Cuplock scaffolding' },
+          { src: '/assets/images/exterior-scaffolding-safety-net-mumbai.webp', width: 750, height: 1000, alt: 'MS H-frame scaffolding with safety netting on a Mumbai building', caption: 'MS H-frame scaffolding with safety net' },
+          { src: '/assets/images/aluminium-mobile-scaffold-mumbai.webp', width: 750, height: 1000, alt: 'Aluminium tower scaffolding with platform at a Mumbai building entrance', caption: 'Aluminium tower scaffolding' },
+          { src: '/assets/images/mobile-scaffold-platform-mumbai.webp', width: 750, height: 1000, alt: 'Mobile scaffolding platform on castors used for indoor overhead work', caption: 'Mobile scaffolding' },
+          { src: '/assets/images/industrial-stairway-scaffolding-mumbai.webp', width: 750, height: 1000, alt: 'Scaffolding stairway tower giving access between levels at an industrial site', caption: 'Scaffolding stairway access tower' }
+        ]
+      },
+      {
+        heading: 'Names of the 8 types of scaffolding',
+        bullets: [
+          'H-frame scaffolding: ready-made H-shaped steel frames joined with cross braces. This is the most common type for building painting and repair in Mumbai.',
+          'Cuplock scaffolding: vertical standards with cups every 500 mm that lock horizontal ledgers in place. It is used for high-rise construction and heavy-duty work.',
+          'Tube-and-coupler scaffolding: MS pipes joined with clamps (couplers). It fits irregular shapes such as domes, temples and industrial plants.',
+          'Aluminium tower scaffolding: a lightweight tower that is quick to assemble. It is used for interiors, electrical work, malls and offices.',
+          'Mobile scaffolding: a tower on lockable wheels (castors) that can be moved along a ceiling or wall on a firm, level floor.',
+          'Trestle scaffolding: a low working platform on trestles or tripods for indoor work up to about one storey.',
+          'Cantilever scaffolding: a scaffold supported on needles or brackets projecting from the building, used where the ground below is not available.',
+          'Suspended scaffolding: a platform hung from the roof with wire ropes, used for façade cleaning, glazing and high-rise repairs.'
+        ]
+      },
       {
         heading: 'How scaffolding types are classified',
         paragraphs: [
@@ -199,10 +228,30 @@ export const seoPages = [
         ]
       },
       {
+        heading: 'Types of scaffolding used in construction',
+        table: {
+          headers: ['Construction work', 'Scaffolding type usually considered', 'Why'],
+          rows: [
+            ['Society or building painting and repair', 'H-frame or MS H-frame', 'Fast to erect bay by bay along a façade'],
+            ['High-rise RCC construction', 'Cuplock', 'Strong modular nodes, suits heavy loads and many lifts'],
+            ['Slab and beam shuttering support', 'Cuplock, props and jacks', 'Adjustable vertical support under formwork'],
+            ['Irregular shapes, plants and domes', 'Tube and coupler (MS pipes and clamps)', 'Pipes can be cut and clamped at any angle'],
+            ['Interior, ceiling and electrical work', 'Aluminium or mobile tower', 'Light, quick to shift, no damage to floors'],
+            ['No ground space below the work area', 'Cantilever or suspended', 'Supported from the building instead of the ground']
+          ]
+        }
+      },
+      {
         heading: 'Which scaffolding type should you choose?',
         paragraphs: [
           'Choose only after defining the work. Repetitive façade access may suit H-frames, while a modular Cuplock arrangement may be useful for more varied bay layouts or access structures. A mobile aluminium tower may suit appropriate short-duration work on a firm, level floor. Special cantilever or suspended access needs a specialist assessment.',
-          'Shukla Scaffolding can discuss H-frame, MS H-frame, Cuplock, ladders, aluminium access equipment and related labour for Mumbai projects. Final availability and suitability are confirmed for the actual site.'
+          'Shukla Scaffolding has supplied scaffolding in Mumbai for over 10 years. We can provide H-frame, MS H-frame, Cuplock, MS pipes and clamps, props, jacks, shuttering, ladders and aluminium mobile towers in all heights on rent or sale, with erection and dismantling labour. Final availability and suitability are confirmed for the actual site.'
+        ],
+        linksLabel: 'Rent these systems in Mumbai',
+        links: [
+          { path: '/scaffolding-rental-mumbai', label: 'scaffolding on rent in Mumbai' },
+          { path: '/aluminium-scaffolding-on-rent-mumbai', label: 'aluminium mobile tower on rent' },
+          { path: '/h-frame-scaffolding', label: 'H-frame scaffolding' }
         ]
       }
     ],
@@ -217,7 +266,7 @@ export const seoPages = [
   {
     path: '/scaffolding-material-parts',
     kind: 'article',
-    title: 'Scaffolding Materials & Parts Explained | Shukla Scaffolding',
+    title: 'Scaffolding Materials & Parts: Names and Uses',
     description: 'Learn the functions of scaffold standards, ledgers, braces, platforms, base components, ties, guardrails, ladders and other common scaffolding parts.',
     eyebrow: 'Components & Supply',
     h1: 'Scaffolding Materials and Parts: Complete Guide',
@@ -300,8 +349,8 @@ export const seoPages = [
   {
     path: '/h-frame-scaffolding',
     kind: 'article',
-    title: 'H-Frame Scaffolding: Uses, Benefits & Mumbai Rental | Shukla Scaffolding',
-    description: 'Learn how H-frame scaffolding works, its main parts, applications, advantages and limitations, and how to request H-frame rental in Mumbai.',
+    title: 'What Is H-Frame Scaffolding? Parts, Uses & Rent in Mumbai',
+    description: 'What is H-frame scaffolding? Learn its parts, uses, advantages and limits with real site photos, plus H-frame scaffolding on rent in Mumbai with labour.',
     eyebrow: 'Modular Access System',
     h1: 'H-Frame Scaffolding: Uses, Benefits & Rental in Mumbai',
     directAnswer: 'H-frame scaffolding is a modular supported system built from prefabricated steel frames connected with cross braces and platform-supporting members. It is commonly considered for repeated access bays along façades, renovation areas and general construction work.',
@@ -377,7 +426,7 @@ export const seoPages = [
   {
     path: '/cuplock-scaffolding',
     kind: 'article',
-    title: 'Cuplock Scaffolding: Guide & Rental in Mumbai | Shukla Scaffolding',
+    title: 'Cuplock Scaffolding: Parts, Uses & Rent in Mumbai',
     description: 'Understand Cuplock scaffolding components, connections, applications, benefits, limitations and the information needed for Mumbai rental or supply.',
     eyebrow: 'Modular Scaffold System',
     h1: 'Cuplock Scaffolding: Complete Guide & Rental in Mumbai',
@@ -454,7 +503,7 @@ export const seoPages = [
   {
     path: '/aluminium-scaffolding',
     kind: 'article',
-    title: 'Aluminium Scaffolding: Uses & Mumbai Supply | Shukla Scaffolding',
+    title: 'Aluminium Scaffolding: Uses, Benefits & Applications',
     description: 'Learn about aluminium scaffolding and mobile towers, their components, appropriate uses, benefits, limitations and important setup considerations.',
     eyebrow: 'Lightweight Access Equipment',
     h1: 'Aluminium Scaffolding: Uses, Benefits & Applications',
@@ -518,6 +567,11 @@ export const seoPages = [
         paragraphs: [
           'Shukla Scaffolding can discuss aluminium access equipment and related scaffolding accessories for suitable Mumbai work. Availability depends on the required platform height, configuration, duration and site conditions.',
           'Share whether the work is indoors or outdoors, the floor condition, clear working space, required platform size and any obstacles. This helps distinguish a suitable tower requirement from a larger supported scaffold need.'
+        ],
+        linksLabel: 'Need a tower for your site',
+        links: [
+          { path: '/aluminium-scaffolding-on-rent-mumbai', label: 'aluminium scaffolding on rent in Mumbai' },
+          { path: '/scaffolding-rental-mumbai', label: 'all scaffolding rental services' }
         ]
       }
     ],
@@ -527,12 +581,12 @@ export const seoPages = [
       { question: 'Can a mobile tower be moved with people on it?', answer: 'Follow the manufacturer and applicable site rules. As a safe default, people, tools and loose materials should be removed before controlled repositioning unless the system and rules specifically permit otherwise.' },
       { question: 'Is aluminium scaffolding available in Mumbai?', answer: 'Shukla Scaffolding can confirm available aluminium access equipment and accessories after reviewing the project requirements.' }
     ],
-    relatedPaths: ['/mobile-scaffolding', '/types-of-scaffolding', '/scaffolding-safety', '/scaffolding-material-mumbai']
+    relatedPaths: ['/aluminium-scaffolding-on-rent-mumbai', '/mobile-scaffolding', '/types-of-scaffolding', '/scaffolding-safety']
   },
   {
     path: '/mobile-scaffolding',
     kind: 'article',
-    title: 'Mobile Scaffolding: Uses, Components & Safety | Shukla Scaffolding',
+    title: 'Mobile Scaffolding: Uses, Components & Safety',
     description: 'Understand mobile scaffold towers, their components, suitable applications, movement controls, stability limits and safe planning considerations.',
     eyebrow: 'Repositionable Access',
     h1: 'Mobile Scaffolding: Uses, Safety & Applications',
@@ -596,7 +650,11 @@ export const seoPages = [
         heading: 'Choosing mobile scaffolding in Mumbai',
         paragraphs: [
           'When asking about a mobile tower, share the platform height rather than only the ceiling height, the indoor or outdoor location, floor condition, available base area and any narrow doors or passages.',
-          'Shukla Scaffolding can review available aluminium access equipment and accessories. If a mobile tower is not suitable, a supported H-frame or Cuplock arrangement may be discussed instead.'
+          'Shukla Scaffolding rents aluminium mobile towers in all common heights across Mumbai. If a mobile tower is not suitable, a supported H-frame or Cuplock arrangement may be discussed instead.'
+        ],
+        linksLabel: 'Rent a mobile tower',
+        links: [
+          { path: '/aluminium-scaffolding-on-rent-mumbai', label: 'mobile scaffolding rental in Mumbai' }
         ]
       }
     ],
@@ -606,7 +664,7 @@ export const seoPages = [
       { question: 'Can a mobile tower be used on a slope?', answer: 'A mobile tower generally needs a firm, level supporting surface. Slopes or level changes require a different plan based on the system instructions and site assessment.' },
       { question: 'Is mobile scaffolding suitable outdoors?', answer: 'It can be suitable for some outdoor tasks, but wind, ground, traffic, public access and the tower configuration require careful assessment.' }
     ],
-    relatedPaths: ['/aluminium-scaffolding', '/scaffolding-safety', '/types-of-scaffolding', '/scaffolding-rental-mumbai']
+    relatedPaths: ['/aluminium-scaffolding-on-rent-mumbai', '/aluminium-scaffolding', '/scaffolding-safety', '/scaffolding-rental-mumbai']
   },
   {
     path: '/scaffolding-safety',
@@ -876,17 +934,17 @@ export const seoPages = [
     path: '/scaffolding-rental-mumbai',
     kind: 'service',
     serviceType: 'Scaffolding material rental',
-    title: 'Scaffolding Rental Mumbai | H-Frame & Cuplock | Shukla Scaffolding',
-    description: 'Rent H-frame, MS H-frame and Cuplock scaffolding across Mumbai. Choose material-only or add erection and dismantling labour. Request a project quote.',
-    eyebrow: 'Mumbai Rental Service',
-    h1: 'Scaffolding Rental in Mumbai',
-    directAnswer: 'Shukla Scaffolding supplies H-frame, MS H-frame, Cuplock, ladders and related scaffolding material on rent for construction, maintenance, repair and façade-access projects across Mumbai, Thane and Navi Mumbai. Request material only or a defined material-plus-labour scope for erection and dismantling. For a useful quotation, share the project location, working height, approximate length or area, required system if known, expected rental dates, site access details and photographs or drawings when available. Availability, transport and final quantities are confirmed for the project.',
+    title: 'Scaffolding on Rent in Mumbai | Rental Services | Shukla',
+    description: 'Scaffolding on rent in Mumbai for 10+ years: H-frame, Cuplock, aluminium towers, MS pipes, props and jacks with labour. Call or WhatsApp 99873 17357.',
+    eyebrow: 'Scaffolding Rental Services in Mumbai',
+    h1: 'Scaffolding on Rent in Mumbai',
+    directAnswer: 'Shukla Scaffolding has provided scaffolding on rent in Mumbai for over 10 years. We rent out H-frame, MS H-frame, Cuplock, aluminium mobile towers in all heights, MS pipes and clamps, props, jacks, shuttering, ladders and related scaffolding material for construction, maintenance, repair and façade-access projects across Mumbai, Thane and Navi Mumbai. Request material only or a defined material-plus-labour scope for erection and dismantling. For a useful quotation, share the project location, working height, approximate length or area, required system if known, expected rental dates, site access details and photographs or drawings when available. Availability, transport and final quantities are confirmed for the project.',
     image: '/assets/images/scaffolding-rental-site-mumbai.webp',
     imageAlt: 'Tube scaffolding erected around a commercial building entrance in Mumbai',
     imageWidth: 1600,
     imageHeight: 1200,
-    primaryKeyword: 'scaffolding rental Mumbai',
-    secondaryKeywords: ['scaffolding on rent Mumbai', 'scaffolding material on rent Mumbai', 'H-frame scaffolding rental Mumbai', 'Cuplock scaffolding rental Mumbai'],
+    primaryKeyword: 'scaffolding on rent in Mumbai',
+    secondaryKeywords: ['scaffolding rental Mumbai', 'scaffolding rental services', 'scaffolding for rent near me', 'scaffolding rent', 'H-frame scaffolding on rent', 'Cuplock scaffolding rental Mumbai'],
     heroCta: 'whatsapp',
     heroCtaLabel: 'Request a Rental Quote',
     whatsAppMessage: 'Hello Shukla Scaffolding, I need a scaffolding rental quotation. My project location, working height, approximate length or area, system, rental dates and labour requirement are:',
@@ -896,7 +954,7 @@ export const seoPages = [
     ctaButtonLabel: 'WhatsApp Rental Details',
     sections: [
       {
-        heading: 'Scaffolding rental in Mumbai: what we provide',
+        heading: 'Scaffolding on rent in Mumbai: what we provide',
         paragraphs: [
           'Material is available for suitable construction, façade repair, painting, maintenance, renovation and other temporary-access requirements. The quotation is matched to the project size, duration, location and selected scope rather than a standard package.',
           'Availability is confirmed against the quantity, project duration and location. A material name alone is not enough to determine a complete scaffold; platforms, bases, braces, ties, access and protection components must be considered with the layout.'
@@ -904,16 +962,34 @@ export const seoPages = [
         bullets: [
           'H-frame and MS H-frame scaffolding for suitable repeated access bays',
           'Cuplock standards, ledgers and related modular components',
+          'Aluminium mobile scaffold towers in all common working heights',
+          'MS scaffolding pipes with clamps and couplers for tube-and-coupler work',
+          'Adjustable steel props, base jacks and U-jacks for support and levelling',
+          'Shuttering material for slab and formwork support',
           'Ladders and access components according to the planned arrangement',
-          'Selected aluminium access equipment and scaffolding accessories',
           'Material-only or material with erection and dismantling labour as an agreed scope'
         ],
         linksLabel: 'Compare systems',
         links: [
           { path: '/h-frame-scaffolding', label: 'H-frame scaffolding guide' },
           { path: '/cuplock-scaffolding', label: 'Cuplock scaffolding guide' },
+          { path: '/aluminium-scaffolding-on-rent-mumbai', label: 'aluminium mobile tower on rent' },
           { path: '/types-of-scaffolding', label: 'types of scaffolding' }
         ]
+      },
+      {
+        heading: 'Our scaffolding rental services',
+        table: {
+          headers: ['Rental service', 'Typical use in Mumbai'],
+          rows: [
+            ['Scaffolding material on rent only', 'Contractors with their own competent erection team'],
+            ['Scaffolding on rent with erection and dismantling labour', 'Society painting, repair and waterproofing jobs that want one point of contact'],
+            ['Aluminium mobile tower rental', 'Ceiling, lighting, AC, signage and interior work in offices, malls and factories'],
+            ['Props, jacks and shuttering on rent', 'Slab casting, beam support and temporary propping on construction sites'],
+            ['MS pipes and clamps on rent', 'Tube-and-coupler scaffolding for irregular shapes and industrial access'],
+            ['Short-term or long-term rental', 'From a few days of repair work to months of new construction']
+          ]
+        }
       },
       {
         heading: 'H-frame, MS H-frame and Cuplock rental options',
@@ -922,6 +998,8 @@ export const seoPages = [
           rows: [
             ['H-frame or MS H-frame', 'Repeated access bays for suitable façades, repairs and general construction work', 'Frame dimensions, bay layout, platform levels, bases, braces, ties and access'],
             ['Cuplock scaffolding', 'Modular layouts that need standards and ledgers arranged around the project geometry', 'Bay sizes, lifts, intended loads, platform arrangement, bracing, ties and base conditions'],
+            ['Aluminium mobile tower', 'Indoor or outdoor work that moves along a ceiling or wall on a firm, level floor', 'Working height, floor condition, clear space and how often the tower must be moved'],
+            ['MS pipes, clamps, props and jacks', 'Tube-and-coupler arrangements, slab propping and levelling', 'Pipe lengths, clamp types, prop heights and quantities'],
             ['Ladders and selected accessories', 'Access and completion of a compatible planned scaffold arrangement', 'System compatibility, quantity, dimensions and intended position']
           ]
         },
@@ -998,6 +1076,9 @@ export const seoPages = [
         ],
         linksLabel: 'Planning resources',
         links: [
+          { path: '/blog/scaffolding-rent-vs-buy', label: 'rent vs buy scaffolding' },
+          { path: '/blog/scaffolding-rent-price-mumbai', label: 'what decides scaffolding rent in Mumbai' },
+          { path: '/blog/checklist-before-renting-scaffolding', label: 'checklist before renting scaffolding' },
           { path: '/scaffolding-material-parts', label: 'scaffolding materials and parts' },
           { path: '/scaffolding-guide', label: 'scaffolding planning guide' }
         ]
@@ -1011,7 +1092,9 @@ export const seoPages = [
       }
     ],
     faqs: [
-      { question: 'Which scaffolding systems can I rent in Mumbai?', answer: 'Shukla Scaffolding offers H-frame, MS H-frame, Cuplock, ladders and selected accessories according to the project and material availability.' },
+      { question: 'Which scaffolding can I get on rent in Mumbai?', answer: 'Shukla Scaffolding rents out H-frame, MS H-frame, Cuplock, aluminium mobile towers in all heights, MS pipes and clamps, props, jacks, shuttering, ladders and accessories, according to the project and material availability.' },
+      { question: 'How much is scaffolding rent in Mumbai?', answer: 'Scaffolding rent depends on the system, quantity, rental period, transport and whether erection and dismantling labour is included. Call or WhatsApp +91 99873 17357 with your site details for a project-specific rate.' },
+      { question: 'How long has Shukla Scaffolding been in business?', answer: 'Shukla Scaffolding has supplied scaffolding material and labour in Mumbai for more than 10 years, from its base in Sakinaka, Kurla West.' },
       { question: 'Can I rent scaffolding with erection labour?', answer: 'Yes. Erection and dismantling labour can be quoted with the material requirement after reviewing the site and scope.' },
       { question: 'What information is needed for a rental quotation?', answer: 'Share the project location, working height, approximate length or area, intended work, scaffold system if known, rental dates, access conditions and whether you need material only or material with labour. Photographs or drawings are helpful when available.' },
       { question: 'Can I rent scaffolding material without labour?', answer: 'Yes. Material-only and material-plus-labour requirements can be discussed separately. The quotation should state transport, unloading, erection, dismantling, inspection and return responsibilities.' },
@@ -1019,6 +1102,143 @@ export const seoPages = [
       { question: 'Which areas do you serve for scaffolding rental?', answer: 'Shukla Scaffolding is based in Sakinaka and Kurla West and accepts project enquiries across Mumbai, Thane and Navi Mumbai, subject to material availability, scope, transport access and scheduling.' }
     ],
     relatedPaths: ['/scaffolding-material-mumbai', '/scaffolding-labour-mumbai', '/h-frame-scaffolding', '/cuplock-scaffolding']
+  },
+  {
+    path: '/aluminium-scaffolding-on-rent-mumbai',
+    kind: 'service',
+    serviceType: 'Aluminium mobile scaffold tower rental',
+    title: 'Aluminium Scaffolding on Rent in Mumbai | Mobile Tower',
+    description: 'Aluminium mobile scaffolding on rent in Mumbai in all heights. Lightweight towers for ceiling, interior and maintenance work. Call or WhatsApp 99873 17357.',
+    eyebrow: 'Mobile Scaffolding Rental in Mumbai',
+    h1: 'Aluminium Mobile Scaffolding on Rent in Mumbai',
+    directAnswer: 'Shukla Scaffolding provides aluminium mobile scaffolding towers on rent across Mumbai in all common working heights. The towers are lightweight, quick to assemble and move on lockable castors, which makes them suitable for ceiling, lighting, AC, signage, painting and maintenance work in offices, malls, factories, warehouses and housing societies. Tell us the working height, floor condition and rental dates, and we will confirm the tower size and availability.',
+    image: '/assets/images/aluminium-mobile-scaffold-mumbai.webp',
+    imageAlt: 'Aluminium mobile scaffold tower on rent at a Mumbai building entrance',
+    imageWidth: 750,
+    imageHeight: 1000,
+    primaryKeyword: 'aluminium scaffolding on rent in Mumbai',
+    secondaryKeywords: ['mobile scaffolding rental near me', 'aluminium mobile tower on rent', 'aluminium scaffolding rental Mumbai', 'mobile scaffold tower hire Mumbai'],
+    heroCta: 'whatsapp',
+    heroCtaLabel: 'WhatsApp Tower Height & Dates',
+    whatsAppMessage: 'Hello Shukla Scaffolding, I need an aluminium mobile scaffolding tower on rent. Site location, working height, indoor/outdoor and rental dates:',
+    ctaEyebrow: 'Aluminium Tower Rental',
+    ctaHeading: 'Get an Aluminium Mobile Tower on Rent',
+    ctaText: 'Send the site location in Mumbai, the height you need to reach, whether the work is indoor or outdoor, the floor surface and your rental dates. We will confirm the tower size, availability and rate.',
+    ctaButtonLabel: 'WhatsApp Your Tower Requirement',
+    sections: [
+      {
+        heading: 'Why rent an aluminium mobile scaffold tower?',
+        paragraphs: [
+          'An aluminium tower weighs far less than a steel scaffold of the same height. Two trained people can assemble it in a short time without heavy tools, and it can be moved along a ceiling or wall on lockable castors instead of being dismantled and rebuilt. For short jobs that move across a floor, this saves both time and labour cost.',
+          'Because the components are light and do not rust, aluminium towers are also the cleaner choice inside finished spaces such as offices, showrooms, hospitals, malls and residential lobbies, where steel pipes and frames could mark floors or walls.'
+        ],
+        images: [
+          { src: '/assets/images/aluminium-mobile-scaffold-mumbai.webp', width: 750, height: 1000, alt: 'Aluminium scaffold tower with working platform set up in Mumbai', caption: 'Aluminium tower at a building entrance' },
+          { src: '/assets/images/mobile-scaffold-platform-mumbai.webp', width: 750, height: 1000, alt: 'Mobile scaffolding tower on castors for indoor ceiling work', caption: 'Mobile tower for indoor overhead work' }
+        ]
+      },
+      {
+        heading: 'Aluminium tower heights available on rent',
+        paragraphs: [
+          'We rent aluminium mobile towers in all common working heights, from low single-stage towers for room ceilings up to tall multi-stage towers for double-height lobbies, warehouses and building fronts. The tower is built up in sections, so the platform height is matched to your job rather than forcing you to hire more tower than you need.',
+          'When you enquire, tell us the height you need to work at (for example, the ceiling height or the top of the signboard), not only the height of the building. We will suggest the platform height, the base size and whether outriggers or stabilisers are needed for that height.'
+        ]
+      },
+      {
+        heading: 'Where aluminium mobile scaffolding is used',
+        bullets: [
+          'False ceiling, lighting and electrical work in offices and shops',
+          'AC duct, sprinkler and fire-line installation in commercial buildings',
+          'Interior and exterior painting of lobbies, halls and double-height spaces',
+          'Signage, hoarding and glass work at shop fronts',
+          'Warehouse racking, CCTV and maintenance work in factories',
+          'Event, exhibition and stage setups that need quick, clean access',
+          'Society maintenance such as lobby repairs, light fittings and small façade jobs'
+        ]
+      },
+      {
+        heading: 'Aluminium tower vs steel scaffolding on rent',
+        table: {
+          headers: ['Point', 'Aluminium mobile tower', 'Steel H-frame or Cuplock'],
+          rows: [
+            ['Weight', 'Light; easy to carry and shift', 'Heavy; needs more labour and transport'],
+            ['Setup time', 'Fast for a single tower', 'Longer, but suits long façades'],
+            ['Moving on site', 'Rolls on lockable castors on level floors', 'Usually fixed once erected'],
+            ['Best for', 'Short, moving jobs indoors or at shop fronts', 'Full-building façades and heavy construction'],
+            ['Load', 'Light-duty work and tools', 'Heavier loads, materials and many workers']
+          ]
+        },
+        paragraphs: [
+          'If the job covers a full building face, needs many workers at once or will run for months, steel H-frame or Cuplock scaffolding is usually more economical. We supply both, so we can tell you honestly which one fits your work.'
+        ],
+        linksLabel: 'Compare other rental options',
+        links: [
+          { path: '/scaffolding-rental-mumbai', label: 'scaffolding on rent in Mumbai' },
+          { path: '/h-frame-scaffolding', label: 'H-frame scaffolding' },
+          { path: '/cuplock-scaffolding', label: 'Cuplock scaffolding' }
+        ]
+      },
+      {
+        heading: 'How aluminium tower rental works',
+        bullets: [
+          'Call or WhatsApp +91 99873 17357 with the site location, working height, indoor or outdoor use and rental dates.',
+          'We confirm the right tower size, the number of towers and availability, and share the rate.',
+          'The tower is delivered to your Mumbai site. Assembly support can be arranged if your team needs it.',
+          'Use the tower with the castors locked and guardrails fitted. Shift it only with everyone off the platform.',
+          'At the end of the rental, the tower is dismantled, counted and collected.'
+        ]
+      },
+      {
+        heading: 'What decides the rent for an aluminium tower',
+        table: {
+          headers: ['Factor', 'Why it matters'],
+          rows: [
+            ['Working height', 'Taller towers need more frames, braces and stabilisers'],
+            ['Number of towers', 'Large jobs may need two or more towers working at once'],
+            ['Rental duration', 'Daily, weekly and monthly rentals are priced differently'],
+            ['Site location and access', 'Affects transport, unloading and the time to reach the work floor'],
+            ['Assembly support', 'Material-only or with our team for setup and dismantling']
+          ]
+        },
+        paragraphs: [
+          'We do not publish one fixed rate because the right tower depends on your job. Share your details and we will give you a clear quotation, with transport and labour shown separately.'
+        ]
+      },
+      {
+        heading: 'Safety rules for mobile scaffold towers',
+        bullets: [
+          'Use the tower only on firm, level ground or flooring that can carry the load.',
+          'Lock all castors before anyone climbs, and keep them locked while work is going on.',
+          'Fit guardrails and toe boards on the working platform.',
+          'Fit outriggers or stabilisers whenever the height or the manufacturer instructions require them.',
+          'Climb only on the built-in ladder or frames, never on the outside of the tower.',
+          'Never move the tower with a person, tools or material on the platform.',
+          'Do not use near overhead power lines, or outdoors in strong wind.'
+        ],
+        linksLabel: 'Read more',
+        links: [
+          { path: '/mobile-scaffolding', label: 'mobile scaffolding guide' },
+          { path: '/scaffolding-safety', label: 'scaffolding safety guide' }
+        ]
+      },
+      {
+        heading: 'Mobile scaffolding rental near you in Mumbai',
+        paragraphs: [
+          'We are based at 90 Ft Road, Sakinaka, Kurla West and have supplied scaffolding across Mumbai for over 10 years. Aluminium towers are regularly sent to sites in Andheri, Powai, Ghatkopar, Kurla, Chembur, Bandra, Santacruz, Goregaon, Malad, Borivali, Dadar, Worli, Lower Parel and the rest of the city and suburbs, as well as Thane and Navi Mumbai.',
+          'Because the towers are light, delivery to upper floors through a lift or staircase is usually possible. Tell us about any access restrictions, such as society timings or narrow lanes, when you enquire.'
+        ]
+      }
+    ],
+    faqs: [
+      { question: 'Do you give aluminium scaffolding on rent in Mumbai?', answer: 'Yes. Shukla Scaffolding rents out aluminium mobile scaffold towers in all common working heights across Mumbai, Thane and Navi Mumbai.' },
+      { question: 'What heights of aluminium tower are available?', answer: 'Towers are available in all common working heights, from low single-stage towers for room ceilings to tall multi-stage towers for double-height spaces. Share the height you need to reach and we will confirm the right size.' },
+      { question: 'Can I rent a mobile scaffold tower for just a few days?', answer: 'Yes. Short-term rentals for a few days and longer weekly or monthly rentals are both available, subject to availability on your dates.' },
+      { question: 'Do you provide labour to assemble the aluminium tower?', answer: 'Yes. You can take the tower on rent as material only, or ask for our team to assemble and dismantle it at your site.' },
+      { question: 'Is an aluminium tower better than steel scaffolding?', answer: 'For short, moving jobs indoors or at shop fronts, an aluminium tower is usually faster and cleaner. For full building façades, heavy loads or long construction work, steel H-frame or Cuplock scaffolding is usually better value.' },
+      { question: 'Can a mobile scaffold be used outdoors?', answer: 'Yes, on firm and level ground with castors locked and stabilisers fitted where required. It should not be used outdoors in strong wind or near overhead power lines.' },
+      { question: 'How do I get the rent rate for an aluminium tower?', answer: 'Call or WhatsApp +91 99873 17357 with the site location, working height, number of towers and rental dates. The rate depends on these details.' }
+    ],
+    relatedPaths: ['/scaffolding-rental-mumbai', '/mobile-scaffolding', '/aluminium-scaffolding', '/scaffolding-labour-mumbai']
   },
   {
     path: '/scaffolding-material-mumbai',
@@ -1105,7 +1325,7 @@ export const seoPages = [
     path: '/scaffolding-labour-mumbai',
     kind: 'service',
     serviceType: 'Scaffolding erection and dismantling labour',
-    title: 'Scaffolding Labour Mumbai | Erection & Dismantling | Shukla Scaffolding',
+    title: 'Scaffolding Labour in Mumbai | Erection & Dismantling',
     description: 'Arrange scaffolding erection and dismantling labour across Mumbai for H-frame, MS H-frame and Cuplock systems. Share site details for a project-specific quote.',
     eyebrow: 'Erection & Dismantling',
     h1: 'Scaffolding Erection & Dismantling Labour in Mumbai',
@@ -1240,6 +1460,8 @@ export const seoPages = [
   }
 ];
 
+seoPages.push(blogHub, ...blogPosts);
+
 export const normalizePath = (pathname = '/') => {
   const cleanPath = pathname.split('?')[0].split('#')[0] || '/';
   if (cleanPath === '/') return '/';
@@ -1252,3 +1474,4 @@ export const allPrerenderPaths = ['/', ...seoPages.map((page) => page.path)];
 
 export const guidePages = seoPages.filter((page) => page.kind === 'article');
 export const servicePages = seoPages.filter((page) => page.kind === 'service');
+export const blogPostPages = seoPages.filter((page) => page.kind === 'blog');

@@ -7,7 +7,7 @@ const entries = [
   ...seoPages.map((page) => ({
     path: page.path,
     priority: page.kind === 'hub' || page.kind === 'service' ? '0.9' : '0.8',
-    changefreq: page.kind === 'service' ? 'monthly' : 'yearly',
+    changefreq: page.kind === 'service' || page.kind === 'bloghub' ? 'monthly' : 'yearly',
   })),
 ];
 

@@ -1,4 +1,8 @@
-import { guidePages, seoPageByPath, servicePages } from '../content/seoPages';
+import { blogPostPages, guidePages, seoPageByPath, servicePages } from '../content/seoPages';
+
+const slugify = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const formatDate = (iso) => new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const kindLabel = (kind) => ({ service: 'Mumbai Service', blog: 'Blog', bloghub: 'Blog' }[kind] || 'Scaffolding Guide');
 import { articleImageSizes, responsiveImageSrcSet } from '../utils/responsiveImages';
 
 function Breadcrumbs({ page }) {
@@ -9,6 +13,7 @@ function Breadcrumbs({ page }) {
       <ol>
         <li><a href="/">Home</a></li>
         {isGuideChild && <li><a href="/scaffolding-guide/">Scaffolding Guide</a></li>}
+        {page.kind === 'blog' && <li><a href="/blog/">Blog</a></li>}
         <li aria-current="page">{page.h1}</li>
       </ol>
     </nav>
@@ -18,17 +23,17 @@ function Breadcrumbs({ page }) {
 function PageCard({ item }) {
   return (
     <article className="seo-link-card">
-      <span>{item.kind === 'service' ? 'Mumbai Service' : 'Scaffolding Guide'}</span>
+      <span>{kindLabel(item.kind)}{item.readMinutes ? ` · ${item.readMinutes} min read` : ''}</span>
       <h3><a href={`${item.path}/`}>{item.h1}</a></h3>
-      <p>{item.directAnswer}</p>
-      <a className="seo-card-link" href={`${item.path}/`}>Read {item.kind === 'service' ? 'service details' : 'the guide'} →</a>
+      <p>{item.kind === 'blog' ? item.description : item.directAnswer}</p>
+      <a className="seo-card-link" href={`${item.path}/`}>Read {item.kind === 'service' ? 'service details' : item.kind === 'blog' ? 'the article' : 'the guide'} →</a>
     </article>
   );
 }
 
 function ContentSection({ section }) {
   return (
-    <section className="seo-content-section" id={section.id}>
+    <section className="seo-content-section" id={section.id || slugify(section.heading)}>
       <h2>{section.heading}</h2>
       {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       {section.bullets && (
@@ -52,6 +57,25 @@ function ContentSection({ section }) {
               ))}
             </tbody>
           </table>
+        </div>
+      )}
+      {section.images?.length > 0 && (
+        <div className="seo-gallery">
+          {section.images.map((image) => (
+            <figure key={image.src}>
+              <img
+                src={image.src}
+                srcSet={responsiveImageSrcSet(image.src, image.width)}
+                sizes="(max-width: 700px) calc(100vw - 32px), 340px"
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>{image.caption}</figcaption>
+            </figure>
+          ))}
         </div>
       )}
       {section.links?.length > 0 && (
@@ -83,7 +107,7 @@ function RelatedContent({ page }) {
       <div className="seo-related-grid">
         {related.map((item) => (
           <a href={`${item.path}/`} key={item.path}>
-            <span>{item.kind === 'service' ? 'Service' : 'Guide'}</span>
+            <span>{item.kind === 'service' ? 'Service' : item.kind === 'blog' ? 'Blog' : 'Guide'}</span>
             <strong>{item.h1}</strong>
             <small>Read more →</small>
           </a>
@@ -111,8 +135,8 @@ export default function SeoPage({ page }) {
               <h1>{page.h1}</h1>
               <p className="seo-direct-answer">{page.directAnswer}</p>
               <div className="seo-hero-actions">
-                <a className="btn" href={heroPrimaryHref}>{page.heroCtaLabel || 'Request a Project Quote'}</a>
-                <a className="text-link seo-phone-link" href="tel:+919987317357">Call +91 99873 17357 →</a>
+                <a className="btn" href="tel:+919987317357">Call +91 99873 17357</a>
+                <a className="text-link seo-phone-link" href={heroPrimaryHref === '/#contact' ? whatsAppHref : heroPrimaryHref}>{page.heroCtaLabel || 'WhatsApp for a Quote'} →</a>
               </div>
             </div>
             <figure>
@@ -134,8 +158,25 @@ export default function SeoPage({ page }) {
 
       <article className="container seo-article">
         <div className="seo-article-meta">
-          <span>Topic: {page.primaryKeyword}</span>
+          {page.kind === 'blog' ? (
+            <span>
+              By {page.author.name}, {page.author.role} · Published <time dateTime={page.datePublished}>{formatDate(page.datePublished)}</time> · {page.readMinutes} min read
+            </span>
+          ) : (
+            <span>Topic: {page.primaryKeyword}</span>
+          )}
         </div>
+
+        {page.kind === 'blog' && page.sections.length > 4 && (
+          <nav className="seo-toc" aria-label="Table of contents">
+            <strong>In this article</strong>
+            <ol>
+              {page.sections.map((section) => (
+                <li key={section.heading}><a href={`#${section.id || slugify(section.heading)}`}>{section.heading}</a></li>
+              ))}
+            </ol>
+          </nav>
+        )}
 
         <div className="seo-article-body">
           {page.sections.map((section) => <ContentSection section={section} key={section.heading} />)}
@@ -157,6 +198,16 @@ export default function SeoPage({ page }) {
             <h2 id="mumbai-services-heading">Scaffolding Services in Mumbai</h2>
             <div className="seo-link-grid">
               {servicePages.map((item) => <PageCard item={item} key={item.path} />)}
+            </div>
+          </section>
+        )}
+
+        {page.kind === 'bloghub' && (
+          <section className="seo-hub-section" aria-labelledby="blog-posts-heading">
+            <span className="eyebrow">Latest Articles</span>
+            <h2 id="blog-posts-heading">Scaffolding Rental Articles</h2>
+            <div className="seo-link-grid">
+              {blogPostPages.map((item) => <PageCard item={item} key={item.path} />)}
             </div>
           </section>
         )}

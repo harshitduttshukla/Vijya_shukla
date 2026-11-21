@@ -35,11 +35,12 @@ export default function Header() {
           <a href="/scaffolding-rental-mumbai/" onClick={closeMenu}>Rental</a>
           <a href="/scaffolding-labour-mumbai/" onClick={closeMenu}>Labour</a>
           <a href="/scaffolding-guide/" onClick={closeMenu}>Guides</a>
+          <a href="/blog/" onClick={closeMenu}>Blog</a>
           <a href="/#areas" onClick={closeMenu}>Areas</a>
           <a href="/#contact" onClick={closeMenu}>Contact</a>
         </nav>
-        <a className="btn btn-small" href="/#contact" onClick={closeMenu}>
-          Get a Scaffolding Quote
+        <a className="btn btn-small" href="tel:+919987317357" onClick={closeMenu} aria-label="Call Shukla Scaffolding on +91 99873 17357">
+          Call +91 99873 17357
         </a>
       </div>
     </header>

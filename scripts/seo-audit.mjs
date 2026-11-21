@@ -151,26 +151,28 @@ function auditPage(pathname, expected) {
 }
 
 const homeExpected = {
-  title: 'Scaffolding Rental & Labour Services in Mumbai | Shukla Scaffolding',
-  description: 'Shukla Scaffolding offers H-Frame, MS H-Frame and Cuplock scaffolding on rent or sale, plus erection and dismantling labour across Mumbai. Get a quote.',
+  title: 'Scaffolding in Mumbai | On Rent, Sale & Labour | Shukla',
+  description: 'Scaffolding on rent in Mumbai for 10+ years: H-frame, Cuplock, aluminium towers, MS pipes, props and jacks with erection labour. Call 99873 17357.',
   canonical: `${siteUrl}/`,
-  h1: 'Scaffolding Rental & Labour Services in Mumbai',
+  h1: 'Scaffolding in Mumbai: On Rent, Sale & Labour',
   ogType: 'website',
-  schemaTypes: ['WebSite', 'LocalBusiness', 'GeneralContractor', 'Service', 'FAQPage'],
+  schemaTypes: ['WebSite', 'HomeAndConstructionBusiness', 'GeneralContractor', 'Service', 'FAQPage'],
 };
 
 const pageReports = [auditPage('/', homeExpected)];
 for (const page of seoPages) {
-  const schemaTypes = ['LocalBusiness', 'GeneralContractor', 'BreadcrumbList', 'FAQPage'];
+  const schemaTypes = ['HomeAndConstructionBusiness', 'GeneralContractor', 'BreadcrumbList', 'FAQPage'];
   if (page.kind === 'article') schemaTypes.push('Article');
   if (page.kind === 'service') schemaTypes.push('Service', 'WebPage');
   if (page.kind === 'hub') schemaTypes.push('CollectionPage');
+  if (page.kind === 'blog') schemaTypes.push('BlogPosting');
+  if (page.kind === 'bloghub') schemaTypes.push('Blog');
   pageReports.push(auditPage(page.path, {
     title: page.title,
     description: page.description,
     canonical: pageUrl(page.path),
     h1: page.h1,
-    ogType: page.kind === 'article' ? 'article' : 'website',
+    ogType: page.kind === 'article' || page.kind === 'blog' ? 'article' : 'website',
     schemaTypes,
   }));
 }

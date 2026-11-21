@@ -24,13 +24,21 @@ for (const [tag, href] of rawTemplate.matchAll(cssLinkPattern)) {
 const pageUrl = (pathname) => pathname === '/' ? `${siteUrl}/` : `${siteUrl}${pathname}/`;
 
 const business = {
-  '@type': ['LocalBusiness', 'GeneralContractor'],
+  '@type': ['HomeAndConstructionBusiness', 'GeneralContractor'],
   '@id': `${siteUrl}/#business`,
   name: 'Shukla Scaffolding',
   url: `${siteUrl}/`,
   telephone: ['+91-9987317357', '+91-9324293900'],
   email: 'vijayshukla301@gmail.com',
   taxID: '27MAAPS9233F1ZA',
+  openingHoursSpecification: [{
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '08:00',
+    closes: '23:00',
+  }],
+  description: 'Mumbai scaffolding company with over 10 years of experience, offering scaffolding on rent and sale with erection and dismantling labour.',
+  image: `${siteUrl}/assets/images/scaffolding-rental-site-mumbai.webp`,
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'A 4/8, Jai Hind Society, Khadi No. 03, 90 Ft Road, Sakinaka, Kurla West',
@@ -45,6 +53,9 @@ function breadcrumbSchema(page) {
   const items = [{ name: 'Home', item: pageUrl('/') }];
   if (page.kind === 'article') {
     items.push({ name: 'Scaffolding Guide', item: pageUrl('/scaffolding-guide') });
+  }
+  if (page.kind === 'blog') {
+    items.push({ name: 'Blog', item: pageUrl('/blog') });
   }
   items.push({ name: page.h1, item: pageUrl(page.path) });
 
@@ -109,6 +120,51 @@ function pageSchema(page) {
     };
   }
 
+  if (page.kind === 'blog') {
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [
+        ...common,
+        {
+          '@type': 'BlogPosting',
+          '@id': `${canonical}#article`,
+          mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+          headline: page.h1,
+          description: page.description,
+          image: `${siteUrl}${page.image}`,
+          inLanguage: 'en-IN',
+          datePublished: page.datePublished,
+          dateModified: page.dateModified || page.datePublished,
+          author: { '@type': 'Person', name: page.author.name, jobTitle: page.author.role, worksFor: { '@id': `${siteUrl}/#business` } },
+          publisher: { '@id': `${siteUrl}/#business` },
+          isPartOf: { '@type': 'Blog', '@id': `${siteUrl}/blog/#blog`, url: pageUrl('/blog') },
+          about: page.secondaryKeywords.map((name) => ({ '@type': 'Thing', name })),
+        },
+      ],
+    };
+  }
+
+  if (page.kind === 'bloghub') {
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [
+        ...common,
+        {
+          '@type': 'Blog',
+          '@id': `${canonical}#blog`,
+          url: canonical,
+          name: page.title,
+          description: page.description,
+          inLanguage: 'en-IN',
+          publisher: { '@id': `${siteUrl}/#business` },
+          blogPost: seoPages
+            .filter((item) => item.kind === 'blog')
+            .map((item) => ({ '@type': 'BlogPosting', headline: item.h1, url: pageUrl(item.path), datePublished: item.datePublished })),
+        },
+      ],
+    };
+  }
+
   if (page.kind === 'hub') {
     return {
       '@context': 'https://schema.org',
@@ -161,7 +217,7 @@ function pageSchema(page) {
 function setMeta(html, page) {
   const canonical = pageUrl(page.path);
   const image = `${siteUrl}/assets/images/shukla-scaffolding-mumbai-social.jpg`;
-  const ogType = page.kind === 'article' ? 'article' : 'website';
+  const ogType = page.kind === 'article' || page.kind === 'blog' ? 'article' : 'website';
   const imageSrcSet = responsiveImageSrcSet(page.image, page.imageWidth);
   const escapeHtml = (value) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const title = escapeHtml(page.title);

@@ -1,12 +1,12 @@
 # Shukla Scaffolding SEO Keyword Map
 
-Last reviewed: 25 August 2026
+Last reviewed: 21 November 2026
 
 This map assigns one primary search intent to each indexable page. Closely related informational and commercial intent is combined where separate pages would create duplication or keyword cannibalization.
 
 | Page | Search intent | Primary keyword | Secondary keywords |
 | --- | --- | --- | --- |
-| `/` | Commercial / local | scaffolding rental Mumbai | scaffolding supplier Mumbai, scaffolding labour Mumbai, scaffolding on rent Mumbai |
+| `/` | Commercial / local | scaffolding in Mumbai | scaffolding Mumbai, Mumbai scaffolding, scaffolding supplier Mumbai |
 | `/scaffolding-guide/` | Informational hub | scaffolding guide | what is scaffolding, types of scaffolding, scaffolding material, scaffolding safety |
 | `/what-is-scaffolding/` | Informational | what is scaffolding | scaffolding meaning, scaffolding work, scaffolding material |
 | `/types-of-scaffolding/` | Informational | types of scaffolding | scaffolding types, 8 types of scaffolding, scaffold systems |
@@ -18,7 +18,8 @@ This map assigns one primary search intent to each indexable page. Closely relat
 | `/scaffolding-safety/` | Informational | scaffolding safety | scaffold inspection, safe scaffolding practices, scaffolding work safety |
 | `/cantilever-scaffolding/` | Informational | cantilever scaffolding | cantilever scaffold uses, components and safety |
 | `/suspended-scaffolding/` | Informational | suspended scaffolding | suspended scaffold uses, components and safety |
-| `/scaffolding-rental-mumbai/` | Transactional | scaffolding rental Mumbai | scaffolding on rent Mumbai, scaffolding material on rent Mumbai, scaffolding near me |
+| `/scaffolding-rental-mumbai/` | Transactional | scaffolding on rent in Mumbai | scaffolding rental Mumbai, scaffolding rental services, scaffolding for rent near me, scaffolding rent |
+| `/aluminium-scaffolding-on-rent-mumbai/` | Transactional | aluminium scaffolding on rent in Mumbai | mobile scaffolding rental near me, aluminium mobile tower on rent |
 | `/scaffolding-material-mumbai/` | Transactional | scaffolding material Mumbai | scaffolding material supplier Mumbai, scaffolding material sale Mumbai, scaffolding parts Mumbai |
 | `/scaffolding-labour-mumbai/` | Transactional | scaffolding labour Mumbai | scaffolding work Mumbai, erection labour, dismantling labour |
 
