@@ -40,6 +40,16 @@ Posts are about 650–1,100 words of unique content each, which is shorter than 
 
 Each page has about 500–600 words of unique content plus a shared "what we provide" block. The owner confirmed the same service everywhere (scaffolding on rent plus erection/dismantling labour, for any type of work), so more area pages were not made, to avoid near-duplicate doorway pages.
 
+## Batch 4: 21 November 2026 (large projects outside Mumbai)
+
+| Change | Files |
+|---|---|
+| New page `/scaffolding-supplier-pune-ahmedabad/`. It states honestly that the business is Mumbai-based and takes **large** contracts in Pune, Ahmedabad, Surat, Vadodara and Nashik. Keywords: scaffolding on rent in Pune, scaffolding supplier Ahmedabad, bulk scaffolding supplier. The Service schema `areaServed` includes these cities. | src/content/outstationPages.js (new), seoPages.js, prerender.mjs |
+| New blog post `/blog/hiring-mumbai-scaffolding-supplier-outside-mumbai/` | outstationPages.js |
+| Footer link "Large Projects: Pune & Ahmedabad" | Footer.jsx |
+
+No per-city pages were made (there are no offices there). The homepage and LocalBusiness schema stay Mumbai-focused.
+
 ### Placeholders and info still needed
 - ~~Manufacturing~~: confirmed **no**. The site stays "supplier", and no manufacturer page will be made.
 - ~~Opening hours~~: **8 AM–11 PM daily**. This has been added to the schema and the footer.

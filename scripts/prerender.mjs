@@ -110,11 +110,7 @@ function pageSchema(page) {
           description: page.directAnswer,
           url: canonical,
           provider: { '@id': `${siteUrl}/#business` },
-          areaServed: [
-            { '@type': 'City', name: 'Mumbai' },
-            { '@type': 'City', name: 'Thane' },
-            { '@type': 'City', name: 'Navi Mumbai' },
-          ],
+          areaServed: (page.areaServed || ['Mumbai', 'Thane', 'Navi Mumbai']).map((name) => ({ '@type': 'City', name })),
         },
       ],
     };

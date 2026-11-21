@@ -1,5 +1,6 @@
 import { blogHub, blogPosts } from './blogPosts.js';
 import { locationPages } from './locationPages.js';
+import { outstationPage, outstationPost } from './outstationPages.js';
 
 export const siteUrl = 'https://www.shuklascaffolding.com';
 export const seoPages = [
@@ -1468,7 +1469,7 @@ export const seoPages = [
   }
 ];
 
-seoPages.push(...locationPages, blogHub, ...blogPosts);
+seoPages.push(...locationPages, outstationPage, blogHub, ...blogPosts, outstationPost);
 
 export const normalizePath = (pathname = '/') => {
   const cleanPath = pathname.split('?')[0].split('#')[0] || '/';

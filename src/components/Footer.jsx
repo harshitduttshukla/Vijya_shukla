@@ -27,6 +27,7 @@ export default function Footer() {
           <a href="/scaffolding-on-rent-andheri/">Scaffolding in Andheri</a>
           <a href="/scaffolding-on-rent-thane/">Scaffolding in Thane</a>
           <a href="/scaffolding-on-rent-navi-mumbai/">Scaffolding in Navi Mumbai</a>
+          <a href="/scaffolding-supplier-pune-ahmedabad/">Large Projects: Pune &amp; Ahmedabad</a>
           <a href="/#areas">Areas We Serve</a>
           <a href="/assets/documents/shukla-scaffolding-letterhead.pdf" target="_blank" rel="noopener noreferrer">
             Letterhead
